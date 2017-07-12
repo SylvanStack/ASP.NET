@@ -1,8 +1,10 @@
 # ASP.NET
-JQuery 、c#、 bootstrap、等等
 
-#ASP.NET
-----
+ - 主要JQuery 、c#、 bootstrap等技术
+
+##ASP.NET(C# 基础篇)
+- - - - -
+
 ### 一、C# 基础
 
   * 1.哈希表 2.list 3.字典  4.数组 5.文件 6.文件流  
