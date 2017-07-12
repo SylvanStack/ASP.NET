@@ -1,0 +1,9 @@
+F:\东软培训\MyProject\抽象类练习\bin\Debug\抽象类练习.exe.config
+F:\东软培训\MyProject\抽象类练习\bin\Debug\抽象类练习.exe
+F:\东软培训\MyProject\抽象类练习\bin\Debug\抽象类练习.pdb
+F:\东软培训\MyProject\抽象类练习\obj\Debug\抽象类练习.exe
+F:\东软培训\MyProject\抽象类练习\obj\Debug\抽象类练习.pdb
+F:\东软培训\MyProject\抽象类练习\obj\Debug\抽象类练习.csprojResolveAssemblyReference.cache
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\抽象类练习\bin\Debug\抽象类练习.exe.config
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\抽象类练习\obj\Debug\抽象类练习.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\抽象类练习\obj\Debug\抽象类练习.pdb

@@ -1,0 +1,6 @@
+C:\Users\Mr.Seven\Desktop\MyProject1\MyProject1\bin\Debug\MyProject1.exe.config
+C:\Users\Mr.Seven\Desktop\MyProject1\MyProject1\bin\Debug\MyProject1.exe
+C:\Users\Mr.Seven\Desktop\MyProject1\MyProject1\bin\Debug\MyProject1.pdb
+C:\Users\Mr.Seven\Desktop\MyProject1\MyProject1\obj\Debug\MyProject1.csprojResolveAssemblyReference.cache
+C:\Users\Mr.Seven\Desktop\MyProject1\MyProject1\obj\Debug\MyProject1.exe
+C:\Users\Mr.Seven\Desktop\MyProject1\MyProject1\obj\Debug\MyProject1.pdb

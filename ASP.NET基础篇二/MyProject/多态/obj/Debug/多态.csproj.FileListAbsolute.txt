@@ -1,0 +1,9 @@
+F:\东软培训\MyProject\多态\bin\Debug\多态.exe.config
+F:\东软培训\MyProject\多态\bin\Debug\多态.exe
+F:\东软培训\MyProject\多态\bin\Debug\多态.pdb
+F:\东软培训\MyProject\多态\obj\Debug\多态.csprojResolveAssemblyReference.cache
+F:\东软培训\MyProject\多态\obj\Debug\多态.exe
+F:\东软培训\MyProject\多态\obj\Debug\多态.pdb
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\多态\bin\Debug\多态.exe.config
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\多态\obj\Debug\多态.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\多态\obj\Debug\多态.pdb

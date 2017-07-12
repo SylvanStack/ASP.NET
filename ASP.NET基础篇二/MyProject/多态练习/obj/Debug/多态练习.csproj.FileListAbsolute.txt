@@ -1,0 +1,5 @@
+F:\东软培训\MyProject\多态练习\bin\Debug\多态练习.exe.config
+F:\东软培训\MyProject\多态练习\bin\Debug\多态练习.exe
+F:\东软培训\MyProject\多态练习\bin\Debug\多态练习.pdb
+F:\东软培训\MyProject\多态练习\obj\Debug\多态练习.exe
+F:\东软培训\MyProject\多态练习\obj\Debug\多态练习.pdb

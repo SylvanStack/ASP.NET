@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态", "多态\多态.csproj", "{910EE9F1-3378-4E1C-98B5-90FEADFBAE94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态练习", "多态练习\多态练习.csproj", "{B9C14ECE-64CB-43AE-9971-FC4171C2F663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象类", "抽象类\抽象类.csproj", "{7F12001D-7D1F-4AB1-B1FE-621CF85D7EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象类练习", "抽象类练习\抽象类练习.csproj", "{7324AC45-357D-465B-A513-349F9051CF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "电脑-U盘-MP3-移动硬盘", "电脑-U盘-MP3-移动硬盘\电脑-U盘-MP3-移动硬盘.csproj", "{CDBE7466-50DA-4418-A414-4C2CA7E086AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{910EE9F1-3378-4E1C-98B5-90FEADFBAE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910EE9F1-3378-4E1C-98B5-90FEADFBAE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910EE9F1-3378-4E1C-98B5-90FEADFBAE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910EE9F1-3378-4E1C-98B5-90FEADFBAE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C14ECE-64CB-43AE-9971-FC4171C2F663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C14ECE-64CB-43AE-9971-FC4171C2F663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C14ECE-64CB-43AE-9971-FC4171C2F663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C14ECE-64CB-43AE-9971-FC4171C2F663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F12001D-7D1F-4AB1-B1FE-621CF85D7EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F12001D-7D1F-4AB1-B1FE-621CF85D7EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F12001D-7D1F-4AB1-B1FE-621CF85D7EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F12001D-7D1F-4AB1-B1FE-621CF85D7EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7324AC45-357D-465B-A513-349F9051CF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7324AC45-357D-465B-A513-349F9051CF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7324AC45-357D-465B-A513-349F9051CF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7324AC45-357D-465B-A513-349F9051CF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBE7466-50DA-4418-A414-4C2CA7E086AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBE7466-50DA-4418-A414-4C2CA7E086AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBE7466-50DA-4418-A414-4C2CA7E086AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBE7466-50DA-4418-A414-4C2CA7E086AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

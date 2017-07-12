@@ -1,0 +1,12 @@
+F:\东软培训\MyProject\电脑-U盘-MP3-移动硬盘\bin\Debug\电脑-U盘-MP3-移动硬盘.exe.config
+F:\东软培训\MyProject\电脑-U盘-MP3-移动硬盘\bin\Debug\电脑-U盘-MP3-移动硬盘.exe
+F:\东软培训\MyProject\电脑-U盘-MP3-移动硬盘\bin\Debug\电脑-U盘-MP3-移动硬盘.pdb
+F:\东软培训\MyProject\电脑-U盘-MP3-移动硬盘\obj\Debug\电脑-U盘-MP3-移动硬盘.csprojResolveAssemblyReference.cache
+F:\东软培训\MyProject\电脑-U盘-MP3-移动硬盘\obj\Debug\电脑-U盘-MP3-移动硬盘.exe
+F:\东软培训\MyProject\电脑-U盘-MP3-移动硬盘\obj\Debug\电脑-U盘-MP3-移动硬盘.pdb
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\电脑-U盘-MP3-移动硬盘\bin\Debug\电脑-U盘-MP3-移动硬盘.exe.config
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\电脑-U盘-MP3-移动硬盘\obj\Debug\电脑-U盘-MP3-移动硬盘.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\电脑-U盘-MP3-移动硬盘\obj\Debug\电脑-U盘-MP3-移动硬盘.pdb
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\电脑-U盘-MP3-移动硬盘\bin\Debug\电脑-U盘-MP3-移动硬盘.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\电脑-U盘-MP3-移动硬盘\bin\Debug\电脑-U盘-MP3-移动硬盘.pdb
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET基础篇二\MyProject\电脑-U盘-MP3-移动硬盘\obj\Debug\电脑-U盘-MP3-移动硬盘.csprojResolveAssemblyReference.cache
