@@ -16,3 +16,12 @@
    - 多态（练习）
   
    - 抽象类（练习）
+
+
+### 二、 c#基础   ____   [C#基础篇三](https://github.com/Sevenbaby1/ASP.NET/tree/master/ASP.NET%E5%9F%BA%E7%A1%80%E7%AF%87%E4%B8%89 "C#基础篇三链接")
+
+
+   - Guid 序列化和反序列化
+   - 访问修饰符 密封类  部分类 引用类型 值类型
+   - 工厂模式 重写ToSting
+   - 接口（练习和特点）
