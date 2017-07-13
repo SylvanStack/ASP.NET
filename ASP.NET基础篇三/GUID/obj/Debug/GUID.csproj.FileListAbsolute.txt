@@ -1,0 +1,5 @@
+F:\东软培训\访问修饰符\GUID\bin\Debug\GUID.exe.config
+F:\东软培训\访问修饰符\GUID\bin\Debug\GUID.exe
+F:\东软培训\访问修饰符\GUID\bin\Debug\GUID.pdb
+F:\东软培训\访问修饰符\GUID\obj\Debug\GUID.exe
+F:\东软培训\访问修饰符\GUID\obj\Debug\GUID.pdb

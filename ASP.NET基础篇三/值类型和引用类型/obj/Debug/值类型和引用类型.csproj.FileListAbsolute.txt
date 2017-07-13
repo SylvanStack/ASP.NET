@@ -1,0 +1,6 @@
+F:\东软培训\访问修饰符\值类型和引用类型\bin\Debug\值类型和引用类型.exe.config
+F:\东软培训\访问修饰符\值类型和引用类型\bin\Debug\值类型和引用类型.exe
+F:\东软培训\访问修饰符\值类型和引用类型\bin\Debug\值类型和引用类型.pdb
+F:\东软培训\访问修饰符\值类型和引用类型\obj\Debug\值类型和引用类型.exe
+F:\东软培训\访问修饰符\值类型和引用类型\obj\Debug\值类型和引用类型.pdb
+F:\东软培训\访问修饰符\值类型和引用类型\obj\Debug\值类型和引用类型.csprojResolveAssemblyReference.cache

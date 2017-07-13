@@ -1,0 +1,5 @@
+F:\东软培训\访问修饰符\接口\bin\Debug\接口.exe.config
+F:\东软培训\访问修饰符\接口\bin\Debug\接口.exe
+F:\东软培训\访问修饰符\接口\bin\Debug\接口.pdb
+F:\东软培训\访问修饰符\接口\obj\Debug\接口.exe
+F:\东软培训\访问修饰符\接口\obj\Debug\接口.pdb

@@ -1,0 +1,6 @@
+F:\东软培训\访问修饰符\访问修饰符\bin\Debug\访问修饰符.exe.config
+F:\东软培训\访问修饰符\访问修饰符\bin\Debug\访问修饰符.exe
+F:\东软培训\访问修饰符\访问修饰符\bin\Debug\访问修饰符.pdb
+F:\东软培训\访问修饰符\访问修饰符\obj\Debug\访问修饰符.csprojResolveAssemblyReference.cache
+F:\东软培训\访问修饰符\访问修饰符\obj\Debug\访问修饰符.exe
+F:\东软培训\访问修饰符\访问修饰符\obj\Debug\访问修饰符.pdb

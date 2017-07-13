@@ -1,0 +1,5 @@
+F:\东软培训\访问修饰符\部分类\bin\Debug\部分类.exe.config
+F:\东软培训\访问修饰符\部分类\bin\Debug\部分类.exe
+F:\东软培训\访问修饰符\部分类\bin\Debug\部分类.pdb
+F:\东软培训\访问修饰符\部分类\obj\Debug\部分类.exe
+F:\东软培训\访问修饰符\部分类\obj\Debug\部分类.pdb
