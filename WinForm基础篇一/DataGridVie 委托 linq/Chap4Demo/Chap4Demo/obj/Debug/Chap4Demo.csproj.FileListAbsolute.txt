@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\obj\Debug\Chap4Demo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\obj\Debug\Chap4Demo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\obj\Debug\Chap4Demo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\bin\Debug\Chap4Demo.exe
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\bin\Debug\Chap4Demo.pdb
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\obj\Debug\Chap4Demo.exe
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\obj\Debug\Chap4Demo.pdb
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\obj\Debug\Chap4Demo.FrmMain.resources
+C:\Users\Administrator\Desktop\Chap4Demo\Chap4Demo\obj\Debug\Chap4Demo.FrmModify.resources

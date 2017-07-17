@@ -1,0 +1,13 @@
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\bin\Debug\Chap3Demo.exe.config
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\bin\Debug\Chap3Demo.exe
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\bin\Debug\Chap3Demo.pdb
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.csprojResolveAssemblyReference.cache
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.FrmMain.resources
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.Properties.Resources.resources
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.csproj.GenerateResource.Cache
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.exe
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.pdb
+C:\Users\Hanshuo.Xie\Desktop\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.FrmModify.resources
+I:\委托\DataGridVie 委托 linq\Chap3Demo\Chap3Demo\bin\Debug\Chap3Demo.exe.config
+I:\委托\DataGridVie 委托 linq\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.exe
+I:\委托\DataGridVie 委托 linq\Chap3Demo\Chap3Demo\obj\Debug\Chap3Demo.pdb

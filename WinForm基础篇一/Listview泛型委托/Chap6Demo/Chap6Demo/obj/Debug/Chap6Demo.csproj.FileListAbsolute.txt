@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\obj\Debug\Chap6Demo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\obj\Debug\Chap6Demo.Form1.resources
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\obj\Debug\Chap6Demo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\obj\Debug\Chap6Demo.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\bin\Debug\Chap6Demo.exe
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\bin\Debug\Chap6Demo.pdb
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\obj\Debug\Chap6Demo.exe
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\obj\Debug\Chap6Demo.pdb
+C:\Users\Administrator\Desktop\Chap6Demo\Chap6Demo\obj\Debug\Chap6Demo.Form2.resources

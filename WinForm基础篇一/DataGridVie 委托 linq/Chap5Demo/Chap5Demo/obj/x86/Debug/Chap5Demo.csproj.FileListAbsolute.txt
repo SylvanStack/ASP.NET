@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.FrmMain.resources
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\bin\Debug\Chap5Demo.exe
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\bin\Debug\Chap5Demo.pdb
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.exe
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.pdb
+C:\Users\Administrator\Desktop\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.FrmModify.resources
+E:\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.exe
+E:\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.pdb
+I:\委托\DataGridVie 委托 linq\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.exe
+I:\委托\DataGridVie 委托 linq\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.pdb
+E:\委托\DataGridVie 委托 linq\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.exe
+E:\委托\DataGridVie 委托 linq\Chap5Demo\Chap5Demo\obj\x86\Debug\Chap5Demo.pdb
