@@ -24,10 +24,20 @@
    - 访问修饰符 密封类  部分类 引用类型 值类型
    - 工厂模式 重写ToSting
    - 接口（练习和特点）
-   
-### 四、 winform基础   ____   [winform基础基础篇一](https://github.com/Sevenbaby1/ASP.NET/tree/master/ASP.NET%E5%9F%BA%E7%A1%80%E7%AF%87%E4%B8%89 "winform基础篇链接")
 
-   - DataGridVie 委托 linq
-   - listview泛型委托
-   - 控件一大堆练习
+## ASP.NET( winform 基础篇)
+- - - - -
+   
+### 一、 winform基础   ____   [winform基础基础篇一](https://github.com/Sevenbaby1/ASP.NET/tree/master/WinForm%E5%9F%BA%E7%A1%80%E7%AF%87%E4%B8%80 "winform基础篇链接")
+
+   - DataGridVie 委托 linq
+   - listview泛型委托
+   - 
+   - 控件一大堆练习
+
+      1. 控件一大堆（1）
+      2. 控件一大堆（2）
+      3. 控件一大堆（3）
+
+
 

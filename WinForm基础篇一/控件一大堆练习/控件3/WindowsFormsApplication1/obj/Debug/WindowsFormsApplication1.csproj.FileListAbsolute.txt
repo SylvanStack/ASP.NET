@@ -1,0 +1,9 @@
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

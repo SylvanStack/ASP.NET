@@ -1,0 +1,13 @@
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\bin\Debug\Interop.WMPLib.dll
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\bin\Debug\AxInterop.WMPLib.dll
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\歌曲播放器.csprojResolveAssemblyReference.cache
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\Interop.WMPLib.dll
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\AxInterop.WMPLib.dll
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\歌曲播放器.csproj.ResolveComReference.cache
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\歌曲播放器.csproj.GenerateResource.Cache
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\面向对象程序设计讲义\图形\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

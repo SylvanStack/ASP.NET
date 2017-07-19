@@ -1,0 +1,6 @@
+D:\东软练习作业\20170715作业练习\03ToString()输出格式\bin\Debug\03ToString()输出格式.exe.config
+D:\东软练习作业\20170715作业练习\03ToString()输出格式\bin\Debug\03ToString()输出格式.exe
+D:\东软练习作业\20170715作业练习\03ToString()输出格式\bin\Debug\03ToString()输出格式.pdb
+D:\东软练习作业\20170715作业练习\03ToString()输出格式\obj\Debug\03ToString()输出格式.exe
+D:\东软练习作业\20170715作业练习\03ToString()输出格式\obj\Debug\03ToString()输出格式.pdb
+D:\东软练习作业\20170715作业练习\03ToString()输出格式\obj\Debug\03ToString()输出格式.csprojResolveAssemblyReference.cache

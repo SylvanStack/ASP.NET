@@ -1,0 +1,14 @@
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\Interop.WMPLib.dll
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\AxInterop.WMPLib.dll
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\控件实例.csproj.ResolveComReference.cache
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\WindowsFormsApplication1.exe
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\WindowsFormsApplication1.pdb
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\bin\Debug\WindowsFormsApplication1.exe
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\bin\Debug\WindowsFormsApplication1.pdb
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\bin\Debug\Interop.WMPLib.dll
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\bin\Debug\AxInterop.WMPLib.dll
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\控件实例.csprojResolveAssemblyReference.cache
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\obj\Debug\控件实例.csproj.GenerateResource.Cache
+D:\东软练习作业\20170715作业练习\04控件使用实例(5个)\bin\Debug\WindowsFormsApplication1.exe.config

@@ -1,0 +1,12 @@
+F:\东软培训\控件\控件\bin\Debug\控件.exe.config
+F:\东软培训\控件\控件\bin\Debug\控件.exe
+F:\东软培训\控件\控件\bin\Debug\控件.pdb
+F:\东软培训\控件\控件\obj\Debug\控件.csprojResolveAssemblyReference.cache
+F:\东软培训\控件\控件\obj\Debug\控件.Form1.resources
+F:\东软培训\控件\控件\obj\Debug\控件.Properties.Resources.resources
+F:\东软培训\控件\控件\obj\Debug\控件.csproj.GenerateResource.Cache
+F:\东软培训\控件\控件\obj\Debug\控件.exe
+F:\东软培训\控件\控件\obj\Debug\控件.pdb
+F:\东软培训\控件\控件\obj\Debug\控件.Form2.resources
+F:\东软培训\控件\控件\obj\Debug\控件.Form3.resources
+F:\东软培训\控件\控件\obj\Debug\控件.Form4.resources

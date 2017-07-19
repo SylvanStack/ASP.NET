@@ -1,0 +1,6 @@
+C:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\ref-out\bin\Debug\ref-out.exe.config
+C:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\ref-out\obj\Debug\ref-out.exe
+C:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\ref-out\obj\Debug\ref-out.pdb
+C:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\ref-out\bin\Debug\ref-out.exe
+C:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\ref-out\bin\Debug\ref-out.pdb
+C:\Users\凯超\documents\visual studio 2015\Projects\7-15作业\ref-out\obj\Debug\ref.csprojResolveAssemblyReference.cache
