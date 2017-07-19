@@ -32,12 +32,23 @@
 
    - DataGridVie 委托 linq
    - listview泛型委托
-   - 
    - 控件一大堆练习
+     
+      1.  控件一大堆（1）
+      2.  控件一大堆（2）
+      3.  控件一大堆（3）
 
-      1. 控件一大堆（1）
-      2. 控件一大堆（2）
-      3. 控件一大堆（3）
+### 二、C# Winform 项目练习和补充  ____   [基础补充篇](https://github.com/Sevenbaby1/ASP.NET/tree/master/C%23%20Winform%20%E9%A1%B9%E7%9B%AE%E7%BB%83%E4%B9%A0%E5%92%8C%E8%A1%A5%E5%85%85 "基础补充篇]")
+
+   - XML
+     1. XML  带属性的Xml  进程和线程
+     2. 拉姆达 委托 
+     3. 线程  摇奖机程序
+   - 超市购物系统
+   - 汽车租赁系统
+   - 体检套餐
 
 
-
+## ASP.NET( JavaSCript 基础篇)
+- - - - -
+### 一、 JavaSCript 基础篇   ____   [JavaSCript 基础篇一](https://github.com/Sevenbaby1/ASP.NET/tree/master/WinForm%E5%9F%BA%E7%A1%80%E7%AF%87%E4%B8%80 "JavaSCript 基础篇一链接")
