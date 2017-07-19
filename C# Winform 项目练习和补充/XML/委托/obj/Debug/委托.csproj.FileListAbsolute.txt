@@ -1,0 +1,12 @@
+F:\XML\委托\bin\Debug\委托.exe.config
+F:\XML\委托\bin\Debug\委托.exe
+F:\XML\委托\bin\Debug\委托.pdb
+F:\XML\委托\obj\Debug\委托.csprojResolveAssemblyReference.cache
+F:\XML\委托\obj\Debug\委托.exe
+F:\XML\委托\obj\Debug\委托.pdb
+F:\东软培训\新建文件夹\XML\委托\bin\Debug\委托.exe.config
+F:\东软培训\新建文件夹\XML\委托\obj\Debug\委托.exe
+F:\东软培训\新建文件夹\XML\委托\obj\Debug\委托.pdb
+F:\东软培训\新建文件夹\XML\委托\bin\Debug\委托.exe
+F:\东软培训\新建文件夹\XML\委托\bin\Debug\委托.pdb
+F:\东软培训\新建文件夹\XML\委托\obj\Debug\委托.csprojResolveAssemblyReference.cache

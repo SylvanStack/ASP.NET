@@ -1,0 +1,90 @@
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3\ExaminationList\ExaminationList\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段1：搭建窗体\ExaminationList\ExaminationList\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段1：搭建窗体\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段1：搭建窗体\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段1：搭建窗体\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段1：搭建窗体\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段1：搭建窗体\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段1：搭建窗体\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段1：搭建窗体\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段2：\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段2：\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段2：\ExaminationList\ExaminationList\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段2：\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段2：\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段2：\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段2：\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段2：\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3：查看、添加套餐检查项目\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3：查看、添加套餐检查项目\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3：查看、添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3：查看、添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3：查看、添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3：查看、添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3：查看、添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段3：查看、添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段4：添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段4：添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段4：添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段4：添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段4：添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段4：添加套餐检查项目\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段4：添加套餐检查项目\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段4：添加套餐检查项目\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+E:\2009年9月\C# OOP授课素材\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ResolveAssemblyReference.cache
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+E:\work\ppt\c#oop\Chapter05\学员练习参考答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\阶段5：新建套餐\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\阶段5：新建套餐\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\阶段5：新建套餐\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csprojResolveAssemblyReference.cache
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+G:\C#产品开发\自己编写的学生用书\第五章\上机答案\思考答案：使用Dictionary\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe.config
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe.config
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csprojResolveAssemblyReference.cache
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\obj\Debug\ExaminationList.MainForm.resources
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+E:\深入.NET平台和C#编程\Chapter05\02 上机练习参考答案\练习6：使用Dictionary替换List实现之前功能\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb
+D:\1实习培训\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe.config
+D:\1实习培训\ExaminationList\ExaminationList\bin\Debug\ExaminationList.exe
+D:\1实习培训\ExaminationList\ExaminationList\bin\Debug\ExaminationList.pdb
+D:\1实习培训\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csprojResolveAssemblyReference.cache
+D:\1实习培训\ExaminationList\ExaminationList\obj\Debug\ExaminationList.Properties.Resources.resources
+D:\1实习培训\ExaminationList\ExaminationList\obj\Debug\ExaminationList.csproj.GenerateResource.Cache
+D:\1实习培训\ExaminationList\ExaminationList\obj\Debug\ExaminationList.exe
+D:\1实习培训\ExaminationList\ExaminationList\obj\Debug\ExaminationList.pdb

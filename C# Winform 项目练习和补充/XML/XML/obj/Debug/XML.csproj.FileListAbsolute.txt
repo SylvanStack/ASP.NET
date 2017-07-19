@@ -1,0 +1,6 @@
+F:\XML\XML\bin\Debug\XML.exe.config
+F:\XML\XML\bin\Debug\XML.exe
+F:\XML\XML\bin\Debug\XML.pdb
+F:\XML\XML\obj\Debug\XML.csprojResolveAssemblyReference.cache
+F:\XML\XML\obj\Debug\XML.exe
+F:\XML\XML\obj\Debug\XML.pdb

@@ -1,0 +1,8 @@
+F:\XML\摇奖机程序\bin\Debug\摇奖机程序.exe.config
+F:\XML\摇奖机程序\bin\Debug\摇奖机程序.exe
+F:\XML\摇奖机程序\bin\Debug\摇奖机程序.pdb
+F:\XML\摇奖机程序\obj\Debug\摇奖机程序.Form1.resources
+F:\XML\摇奖机程序\obj\Debug\摇奖机程序.Properties.Resources.resources
+F:\XML\摇奖机程序\obj\Debug\摇奖机程序.csproj.GenerateResource.Cache
+F:\XML\摇奖机程序\obj\Debug\摇奖机程序.exe
+F:\XML\摇奖机程序\obj\Debug\摇奖机程序.pdb

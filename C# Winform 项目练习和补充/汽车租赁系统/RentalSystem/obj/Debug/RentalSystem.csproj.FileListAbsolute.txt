@@ -1,0 +1,23 @@
+E:\2009年9月\C# OOP授课素材\Chapter09\学员练习参考答案\阶段4\RentalSystem\RentalSystem\bin\Debug\RentalSystem.exe
+E:\2009年9月\C# OOP授课素材\Chapter09\学员练习参考答案\阶段4\RentalSystem\RentalSystem\bin\Debug\RentalSystem.pdb
+E:\2009年9月\C# OOP授课素材\Chapter09\学员练习参考答案\阶段4\RentalSystem\RentalSystem\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年9月\C# OOP授课素材\Chapter09\学员练习参考答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.MainForm.resources
+E:\2009年9月\C# OOP授课素材\Chapter09\学员练习参考答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.Properties.Resources.resources
+E:\2009年9月\C# OOP授课素材\Chapter09\学员练习参考答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.csproj.GenerateResource.Cache
+E:\2009年9月\C# OOP授课素材\Chapter09\学员练习参考答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.exe
+E:\2009年9月\C# OOP授课素材\Chapter09\学员练习参考答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.pdb
+G:\C#产品开发\自己编写的学生用书\第十章\上机答案\阶段4\RentalSystem\RentalSystem\bin\Debug\RentalSystem.exe
+G:\C#产品开发\自己编写的学生用书\第十章\上机答案\阶段4\RentalSystem\RentalSystem\bin\Debug\RentalSystem.pdb
+G:\C#产品开发\自己编写的学生用书\第十章\上机答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.MainForm.resources
+G:\C#产品开发\自己编写的学生用书\第十章\上机答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.Properties.Resources.resources
+G:\C#产品开发\自己编写的学生用书\第十章\上机答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.csproj.GenerateResource.Cache
+G:\C#产品开发\自己编写的学生用书\第十章\上机答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.exe
+G:\C#产品开发\自己编写的学生用书\第十章\上机答案\阶段4\RentalSystem\RentalSystem\obj\Debug\RentalSystem.pdb
+D:\1实习培训\RentalSystem\RentalSystem\bin\Debug\RentalSystem.exe
+D:\1实习培训\RentalSystem\RentalSystem\bin\Debug\RentalSystem.pdb
+D:\1实习培训\RentalSystem\RentalSystem\obj\Debug\RentalSystem.csprojResolveAssemblyReference.cache
+D:\1实习培训\RentalSystem\RentalSystem\obj\Debug\RentalSystem.MainForm.resources
+D:\1实习培训\RentalSystem\RentalSystem\obj\Debug\RentalSystem.Properties.Resources.resources
+D:\1实习培训\RentalSystem\RentalSystem\obj\Debug\RentalSystem.csproj.GenerateResource.Cache
+D:\1实习培训\RentalSystem\RentalSystem\obj\Debug\RentalSystem.exe
+D:\1实习培训\RentalSystem\RentalSystem\obj\Debug\RentalSystem.pdb

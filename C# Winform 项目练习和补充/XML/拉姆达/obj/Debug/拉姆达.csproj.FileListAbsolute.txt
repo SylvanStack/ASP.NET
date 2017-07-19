@@ -1,0 +1,6 @@
+F:\东软培训\新建文件夹\XML\拉姆达\bin\Debug\拉姆达.exe.config
+F:\东软培训\新建文件夹\XML\拉姆达\bin\Debug\拉姆达.exe
+F:\东软培训\新建文件夹\XML\拉姆达\bin\Debug\拉姆达.pdb
+F:\东软培训\新建文件夹\XML\拉姆达\obj\Debug\拉姆达.csprojResolveAssemblyReference.cache
+F:\东软培训\新建文件夹\XML\拉姆达\obj\Debug\拉姆达.exe
+F:\东软培训\新建文件夹\XML\拉姆达\obj\Debug\拉姆达.pdb

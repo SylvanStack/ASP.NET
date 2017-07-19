@@ -1,0 +1,5 @@
+F:\XML\带属性的Xml\bin\Debug\带属性的Xml.exe.config
+F:\XML\带属性的Xml\bin\Debug\带属性的Xml.exe
+F:\XML\带属性的Xml\bin\Debug\带属性的Xml.pdb
+F:\XML\带属性的Xml\obj\Debug\带属性的Xml.exe
+F:\XML\带属性的Xml\obj\Debug\带属性的Xml.pdb

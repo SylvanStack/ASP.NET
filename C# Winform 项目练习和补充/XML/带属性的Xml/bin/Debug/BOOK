@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Order>
+  <p>我是一个P标签</p>
+  <CustomerName />
+  <CustomerNumber>&lt;p&gt;我是一个P标签&lt;/p&gt;</CustomerNumber>
+  <Items />
+  <OrderItems Name="safdff" Price="123" />
+  <OrderItems1 Name="safdff" Price="123" />
+  <OrderItems2 Name="safdff" Price="123" />
+  <OrderItems3 Name="safdff" Price="123" />
+</Order>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="宋体" Size="9" />
+  <Class Name="ExaminationList.Item">
+    <Position X="0.75" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Item.cs</FileName>
+      <HashCode>AAAFAAAABQAgAAAAJAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExaminationList.List">
+    <Position X="7.25" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>List.cs</FileName>
+      <HashCode>AAAAAAAACAAAAAgAAAAAAAQAAAAFAAABEUAAARAEAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="exameSet" />
+      <Field Name="type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ExaminationList.Set">
+    <Position X="3.5" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Set.cs</FileName>
+      <HashCode>AAABAAAAAQAACAAAAAgAAAAAQAAAAABAAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ExaminationList.ExameType">
+    <Position X="6" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Common.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

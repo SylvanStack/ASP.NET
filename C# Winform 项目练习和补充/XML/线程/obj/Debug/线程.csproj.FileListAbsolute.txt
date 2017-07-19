@@ -1,0 +1,9 @@
+F:\XML\线程\bin\Debug\线程.exe.config
+F:\XML\线程\bin\Debug\线程.exe
+F:\XML\线程\bin\Debug\线程.pdb
+F:\XML\线程\obj\Debug\线程.csprojResolveAssemblyReference.cache
+F:\XML\线程\obj\Debug\线程.Form1.resources
+F:\XML\线程\obj\Debug\线程.Properties.Resources.resources
+F:\XML\线程\obj\Debug\线程.csproj.GenerateResource.Cache
+F:\XML\线程\obj\Debug\线程.exe
+F:\XML\线程\obj\Debug\线程.pdb

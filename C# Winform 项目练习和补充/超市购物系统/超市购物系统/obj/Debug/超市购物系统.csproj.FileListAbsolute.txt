@@ -1,0 +1,9 @@
+F:\超市购物系统\超市购物系统\bin\Debug\超市购物系统.exe.config
+F:\超市购物系统\超市购物系统\bin\Debug\超市购物系统.exe
+F:\超市购物系统\超市购物系统\bin\Debug\超市购物系统.pdb
+F:\超市购物系统\超市购物系统\obj\Debug\超市购物系统.csprojResolveAssemblyReference.cache
+F:\超市购物系统\超市购物系统\obj\Debug\超市购物系统.exe
+F:\超市购物系统\超市购物系统\obj\Debug\超市购物系统.pdb
+F:\东软培训\新建文件夹\超市购物系统\超市购物系统\bin\Debug\超市购物系统.exe.config
+F:\东软培训\新建文件夹\超市购物系统\超市购物系统\obj\Debug\超市购物系统.exe
+F:\东软培训\新建文件夹\超市购物系统\超市购物系统\obj\Debug\超市购物系统.pdb
