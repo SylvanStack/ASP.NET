@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebApplication1.Models.ClassInfo>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ClassName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AddTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.delFlag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Remark)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClassName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AddTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.delFlag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remark)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ClassId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.ClassId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ClassId })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

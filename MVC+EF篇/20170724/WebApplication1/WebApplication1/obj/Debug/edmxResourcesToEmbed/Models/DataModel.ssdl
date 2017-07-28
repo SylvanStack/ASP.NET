@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelFirstDbHmModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ClassInfo">
+    <Key>
+      <PropertyRef Name="ClassId" />
+    </Key>
+    <Property Name="ClassId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassName" Type="nvarchar" MaxLength="50" />
+    <Property Name="AddTime" Type="datetime" />
+    <Property Name="delFlag" Type="int" />
+    <Property Name="Remark" Type="nvarchar" MaxLength="550" />
+    <Property Name="Age" Type="int" />
+  </EntityType>
+  <EntityContainer Name="ModelFirstDbHmModelStoreContainer">
+    <EntitySet Name="ClassInfo" EntityType="Self.ClassInfo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -10,3 +10,6 @@ F:\东软培训\新建文件夹\XML\委托\obj\Debug\委托.pdb
 F:\东软培训\新建文件夹\XML\委托\bin\Debug\委托.exe
 F:\东软培训\新建文件夹\XML\委托\bin\Debug\委托.pdb
 F:\东软培训\新建文件夹\XML\委托\obj\Debug\委托.csprojResolveAssemblyReference.cache
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\C# Winform 项目练习和补充\XML\委托\bin\Debug\委托.exe.config
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\C# Winform 项目练习和补充\XML\委托\obj\Debug\委托.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\C# Winform 项目练习和补充\XML\委托\obj\Debug\委托.pdb

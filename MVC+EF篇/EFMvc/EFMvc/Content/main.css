@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'neusoft_saas_app';
+  src:  url('fonts/neusoft_saas_app.eot?5soriy');
+  src:  url('fonts/neusoft_saas_app.eot?5soriy#iefix') format('embedded-opentype'),
+    url('fonts/neusoft_saas_app.ttf?5soriy') format('truetype'),
+    url('fonts/neusoft_saas_app.woff?5soriy') format('woff'),
+    url('fonts/neusoft_saas_app.svg?5soriy#neusoft_saas_app') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  /*font-family: 'neusoft_saas_app' !important;*/
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ico_exit:before {
+  content: "\e975";
+}
+.icon-ico_Staffing:before {
+  content: "\e963";
+}
+.icon-ico_Orders:before {
+  content: "\e964";
+}
+.icon-ico_Received:before {
+  content: "\e965";
+}
+.icon-ico_Ship:before {
+  content: "\e966";
+}
+.icon-ico_calendar:before {
+  content: "\e967";
+}
+.icon-ico_Home:before {
+  content: "\e968";
+}
+.icon-ico_off:before {
+  content: "\e969";
+}
+.icon-ico_Select:before {
+  content: "\e96a";
+}
+.icon-ico_Select_Click:before {
+  content: "\e96b";
+}
+.icon-ico_down:before {
+  content: "\e96c";
+}
+.icon-ico_arrow_right:before {
+  content: "\e96d";
+}
+.icon-ico_arrow_left:before {
+  content: "\e96e";
+}
+.icon-ico_arrow_under:before {
+  content: "\e96f";
+}
+.icon-ico_Bottom:before {
+  content: "\e970";
+}
+.icon-ico_arrow_up:before {
+  content: "\e971";
+}
+.icon-ico_shrink:before {
+  content: "\e972";
+}
+.icon-ico_Order-complete:before {
+  content: "\e973";
+}
+.icon-ico_Top:before {
+  content: "\e974";
+}
+.icon-ico_delivery:before {
+  content: "\e960";
+}
+.icon-ico_modify_reply:before {
+  content: "\e961";
+}
+.icon-ico_modify_inform:before {
+  content: "\e962";
+}
+.icon-ico_send:before {
+  content: "\e95a";
+}
+.icon-ico_clear:before {
+  content: "\e95b";
+}
+.icon-ico_up:before {
+  content: "\e95c";
+}
+.icon-ico_add:before {
+  content: "\e95d";
+}
+.icon-ico_file:before {
+  content: "\e95e";
+}
+.icon-ico_folder:before {
+  content: "\e95f";
+}
+.icon-ico_editor:before {
+  content: "\e957";
+}
+.icon-ico_drafts:before {
+  content: "\e958";
+}
+.icon-ico_delete:before {
+  content: "\e959";
+}
+.icon-ico_gys:before {
+  content: "\e900";
+}
+.icon-ico_newversion:before {
+  content: "\e901";
+}
+.icon-ico-select:before {
+  content: "\e902";
+}
+.icon-ico-qualified:before {
+  content: "\e903";
+}
+.icon-ico-delivery:before {
+  content: "\e904";
+}
+.icon-ico-no-assessment:before {
+  content: "\e905";
+}
+.icon-ico-no-clear:before {
+  content: "\e906";
+}
+.icon-ico-notshi:before {
+  content: "\e907";
+}
+.icon-ico-w .path1:before {
+  content: "\e908";
+  color: rgb(38, 37, 54);
+}
+.icon-ico-w .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-ico-personal-cloudDisk:before {
+  content: "\e90a";
+}
+.icon-ico-zm:before {
+  content: "\e90b";
+}
+.icon-ico-m .path1:before {
+  content: "\e90c";
+  color: rgb(38, 37, 54);
+}
+.icon-ico-m .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(4, 0, 0);
+}
+.icon-ico-work:before {
+  content: "\e90e";
+}
+.icon-ico-show1:before {
+  content: "\e90f";
+}
+.icon-ico-other:before {
+  content: "\e910";
+}
+.icon-ico-zx:before {
+  content: "\e911";
+}
+.icon-ico-lc:before {
+  content: "\e912";
+}
+.icon-ico-zn:before {
+  content: "\e913";
+}
+.icon-ico-help:before {
+  content: "\e914";
+}
+.icon-ico-quick:before {
+  content: "\e915";
+}
+.icon-ico-file:before {
+  content: "\e916";
+}
+.icon-ico-call:before {
+  content: "\e917";
+}
+.icon-ico-texting:before {
+  content: "\e918";
+}
+.icon-ico-write-email:before {
+  content: "\e919";
+}
+.icon-ico-my-download:before {
+  content: "\e91a";
+}
+.icon-ico-share:before {
+  content: "\e91b";
+}
+.icon-ico-download:before {
+  content: "\e91c";
+}
+.icon-ico-BBsearch:before {
+  content: "\e91d";
+}
+.icon-ico-more:before {
+  content: "\e91e";
+}
+.icon-ico-pic:before {
+  content: "\e91f";
+}
+.icon-ico-all:before {
+  content: "\e920";
+}
+.icon-ico-nomessage:before {
+  content: "\e921";
+}
+.icon-ico-big-search:before {
+  content: "\e922";
+}
+.icon-ico-upcoming:before {
+  content: "\e923";
+}
+.icon-ico-report-form:before {
+  content: "\e924";
+}
+.icon-ico-system:before {
+  content: "\e925";
+}
+.icon-ico-gys:before {
+  content: "\e926";
+}
+.icon-ico-dzd .path1:before {
+  content: "\e927";
+  color: rgb(39, 38, 54);
+}
+.icon-ico-dzd .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(39, 38, 54);
+}
+.icon-ico-dzd .path3:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(39, 38, 53);
+}
+.icon-ico-stock:before {
+  content: "\e92a";
+}
+.icon-ico-quality:before {
+  content: "\e92b";
+}
+.icon-ico-income-return:before {
+  content: "\e92c";
+}
+.icon-ico-order:before {
+  content: "\e92d";
+}
+.icon-ico-price:before {
+  content: "\e92e";
+}
+.icon-ico-xbj:before {
+  content: "\e92f";
+}
+.icon-ico-news:before {
+  content: "\e930";
+}
+.icon-ico-mail:before {
+  content: "\e931";
+}
+.icon-ico-phone:before {
+  content: "\e932";
+}
+.icon-ico-tishi:before {
+  content: "\e933";
+}
+.icon-ico-personal-collect:before {
+  content: "\e934";
+}
+.icon-ico-increase:before {
+  content: "\e935";
+}
+.icon-ico-approval:before {
+  content: "\e936";
+}
+.icon-ico-agree:before {
+  content: "\e937";
+}
+.icon-ico-show:before {
+  content: "\e938";
+}
+.icon-ico-password:before {
+  content: "\e956";
+}
+.icon-ico-user:before {
+  content: "\e939";
+}
+.icon-ico-personal-supplier:before {
+  content: "\e93a";
+}
+.icon-ico-personal-collectSelect:before {
+  content: "\e93b";
+}
+.icon-ico-time:before {
+  content: "\e93c";
+}
+.icon-ico-personal-Mimainvisible:before {
+  content: "\e93d";
+}
+.icon-ico-personal-Mimavisible:before {
+  content: "\e93e";
+}
+.icon-ico-personal-invite:before {
+  content: "\e93f";
+}
+.icon-ico-personal-help:before {
+  content: "\e940";
+}
+.icon-ico-personal-download:before {
+  content: "\e941";
+}
+.icon-ico-personal-work:before {
+  content: "\e942";
+}
+.icon-ico-personal-contacts:before {
+  content: "\e943";
+}
+.icon-ico-personal-schedule:before {
+  content: "\e944";
+}
+.icon-ico-businessCard:before {
+  content: "\e945";
+}
+.icon-ico-site:before {
+  content: "\e946";
+}
+.icon-ico-del:before {
+  content: "\e947";
+}
+.icon-ico-rightArrow:before {
+  content: "\e948";
+}
+.icon-ico-search:before {
+  content: "\e949";
+}
+.icon-ico-back:before {
+  content: "\e94a";
+}
+.icon-ico-info-announcement:before {
+  content: "\e94b";
+}
+.icon-ico-info-hsrm:before {
+  content: "\e94c";
+}
+.icon-ico-info-business:before {
+  content: "\e94d";
+}
+.icon-ico-info-schedule:before {
+  content: "\e94e";
+}
+.icon-ico-info-shenpi:before {
+  content: "\e94f";
+}
+.icon-ico-info-me:before {
+  content: "\e950";
+}
+.icon-ico-info-pending:before {
+  content: "\e951";
+}
+.icon-ico-personal:before {
+  content: "\e952";
+}
+.icon-ico-application:before {
+  content: "\e953";
+}
+.icon-ico-kanban:before {
+  content: "\e954";
+}
+.icon-ico-info:before {
+  content: "\e955";
+}
+

@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "ClassInfoForm";
+}
+<script>
+    var keyValue ;
+    $(function () {
+     keyValue = request('keyValue');
+        InitialPage();
+        initControl();
+    });
+    //初始化页面
+    function InitialPage() {;
+        //resize重设(表格、树形)宽高
+        $(window).resize(function (e) {
+            window.setTimeout(function () {
+                //$('#DataTable').setGridWidth(($('.gridPanel').width()));
+                //$('#DataTable').setGridHeight($(window).height() - 240.5);
+            }, 200);
+            e.stopPropagation();
+        });
+    }
+    //初始化控件
+    function initControl() {
+        //获取表单
+        if (!!keyValue) {
+            $.SetForm({
+                url: "../ClassInfo/GetFormJson",
+                param: { keyValue: keyValue },
+                success: function (data) {
+                   // console.log(data);
+                    $("#form1").SetWebControls(data);
+                    ////明细
+                    //var childEntity = data.childEntity;
+                    //$('#DataTable').find('[role=row]').each(function (i) {
+                    //    var row = childEntity[i - 1];
+                    //    if (row != undefined) {
+
+                    //    }
+                    //});
+                }
+            })
+        }
+    }
+    //保存表单;
+    function AcceptClick() {
+        if (!$('#form1').Validform()) {
+            return false;
+        }
+        var postData = $("#form1").GetWebControls(keyValue);
+        $.SaveForm({
+            url: "../ClassInfo/SaveForm?keyValue=" + keyValue,
+            // param: { "Entity": JSON.stringify(postData) },
+            param: postData,
+            loading: "正在保存数据...",
+            success: function () {
+              top.$("#DataTable").bootstrapTable("refresh");
+            }
+        })
+    }
+</script>
+<div class="bills" id="fmEdit">
+    <div style="height:190px;overflow-y:auto;margin:10px 10px;">
+        <table class="form" style="width: 100%;">
+            <tr>
+                             
+                <th class="formTitle" style="width: 70px;">班名<font face="宋体">*</font></th>
+                <td class="formValue"><input id="ClassName" type="text" class="form-control" isvalid="yes" checkexpession="NotNull">
+                <input id="ClassId" type="hidden" class="form-control"></td>
+                <th class="formTitle" style="width: 70px;">增时<font face="宋体">*</font></th>
+                <td class="formValue"><input id="AddTime" type="text" class="form-control" isvalid="yes" checkexpession="NotNull"></td>
+            </tr>
+            <tr>
+                <th class="formTitle" style="width: 70px;">备注<font face="宋体">*</font></th>
+                <td class="formValue"><input id="Remark" type="text" class="form-control" isvalid="yes" checkexpession="NotNull"></td>
+                <th class="formTitle" style="width: 70px;">年龄<font face="宋体">*</font></th>
+                <td class="formValue"><input id="Age" type="text" class="form-control" isvalid="yes" checkexpession="NotNull"></td>
+            </tr>
+           
+            <tr></tr>
+        </table>
+    </div>
+    <div class="gridPanel">
+        <table id="DataTable"></table>
+    </div>
+</div>
+<style>
+    body {
+        margin: 0px;
+    }
+
+    .bills {
+        overflow: hidden;
+        border-radius: 0px;
+        position: relative;
+        background: #FFFFFF;
+        border: 0px solid rgb(204, 204, 204);
+        box-shadow: none;
+        padding: 0px;
+    }
+
+    .ui-widget-content {
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+    }
+</style>
+
+

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StuInfo_Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TClass">
+    <Key>
+      <PropertyRef Name="ClassId" />
+    </Key>
+    <Property Name="ClassId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassName" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="DelFlag" Type="int" />
+    <Property Name="Remark" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="TStudent">
+    <Key>
+      <PropertyRef Name="StuId" />
+    </Key>
+    <Property Name="StuId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassId" Type="int" Nullable="false" />
+    <Property Name="StuName" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="LoginName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="DelFlag" Type="int" />
+    <Property Name="Remark" Type="varchar(max)" />
+  </EntityType>
+  <EntityContainer Name="StuInfo_ModelStoreContainer">
+    <EntitySet Name="TClass" EntityType="Self.TClass" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TStudent" EntityType="Self.TStudent" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

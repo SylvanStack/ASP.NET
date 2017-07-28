@@ -7,3 +7,5 @@ C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1
 C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 C:\Users\Administrator\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\WinForm基础篇一\Listview泛型委托\韩思远\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\WinForm基础篇一\Listview泛型委托\韩思远\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

@@ -1,0 +1,17 @@
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\bin\Debug\StuManage.exe.config
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\bin\Debug\StuManage.exe
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\bin\Debug\StuManage.pdb
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\bin\Debug\EntityFramework.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\bin\Debug\EntityFramework.SqlServer.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\bin\Debug\EntityFramework.xml
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\bin\Debug\EntityFramework.SqlServer.xml
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.csprojResolveAssemblyReference.cache
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.LoginForm.resources
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.MianForm.resources
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.Properties.Resources.resources
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.csproj.GenerateResource.Cache
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.exe
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.pdb
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.StudentModify.resources
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo\StuManage\obj\Debug\StuManage.ClassModify.resources

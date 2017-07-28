@@ -1,0 +1,21 @@
+F:\东软培训\EFProject\EFProject\bin\Debug\EFProject.exe.config
+F:\东软培训\EFProject\EFProject\bin\Debug\EFProject.exe
+F:\东软培训\EFProject\EFProject\bin\Debug\EFProject.pdb
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.csprojResolveAssemblyReference.cache
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.Form1.resources
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.Properties.Resources.resources
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.csproj.GenerateResource.Cache
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.exe
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.pdb
+F:\东软培训\EFProject\EFProject\bin\Debug\EntityFramework.dll
+F:\东软培训\EFProject\EFProject\bin\Debug\EntityFramework.SqlServer.dll
+F:\东软培训\EFProject\EFProject\bin\Debug\EntityFramework.xml
+F:\东软培训\EFProject\EFProject\bin\Debug\EntityFramework.SqlServer.xml
+F:\东软培训\EFProject\EFProject\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.GLY.resources
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.XJGLYM.resources
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.LHCS.resources
+F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.TeacherAdd.resources
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一\EFProject\EFProject\bin\Debug\EFProject.exe.config
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一\EFProject\EFProject\obj\Debug\EFProject.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一\EFProject\EFProject\obj\Debug\EFProject.pdb

@@ -10,3 +10,6 @@ F:\东软培训\控件\控件\obj\Debug\控件.pdb
 F:\东软培训\控件\控件\obj\Debug\控件.Form2.resources
 F:\东软培训\控件\控件\obj\Debug\控件.Form3.resources
 F:\东软培训\控件\控件\obj\Debug\控件.Form4.resources
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\WinForm基础篇一\控件一大堆练习\控件1\控件\bin\Debug\控件.exe.config
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\WinForm基础篇一\控件一大堆练习\控件1\控件\obj\Debug\控件.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\WinForm基础篇一\控件一大堆练习\控件1\控件\obj\Debug\控件.pdb

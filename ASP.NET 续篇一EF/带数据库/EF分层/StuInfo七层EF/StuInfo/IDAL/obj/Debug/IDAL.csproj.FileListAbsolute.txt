@@ -1,0 +1,14 @@
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo\IDAL\bin\Debug\IDAL.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo\IDAL\bin\Debug\IDAL.pdb
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo\IDAL\obj\Debug\IDAL.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo\IDAL\obj\Debug\IDAL.pdb
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo七层EF\StuInfo\IDAL\bin\Debug\IDAL.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo七层EF\StuInfo\IDAL\bin\Debug\IDAL.pdb
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo七层EF\StuInfo\IDAL\obj\Debug\IDAL.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo七层EF\StuInfo\IDAL\obj\Debug\IDAL.pdb
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\StuInfo七层EF\StuInfo\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo七层EF\StuInfo\IDAL\bin\Debug\IDAL.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo七层EF\StuInfo\IDAL\bin\Debug\IDAL.pdb
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo七层EF\StuInfo\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo七层EF\StuInfo\IDAL\obj\Debug\IDAL.dll
+D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neusoft\20170722EF\StuInfo七层EF\StuInfo\IDAL\obj\Debug\IDAL.pdb

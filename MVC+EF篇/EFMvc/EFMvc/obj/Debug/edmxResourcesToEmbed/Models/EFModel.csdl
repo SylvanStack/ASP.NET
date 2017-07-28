@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="StudentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ClassInfo" EntityType="StudentModel.ClassInfo" />
+    <EntitySet Name="StudentInfo" EntityType="StudentModel.StudentInfo" />
+    <EntitySet Name="TeacherInfo" EntityType="StudentModel.TeacherInfo" />
+  </EntityContainer>
+  <EntityType Name="ClassInfo">
+    <Key>
+      <PropertyRef Name="ClassId" />
+    </Key>
+    <Property Name="ClassId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClassName" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="AddTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DelFlag" Type="Boolean" />
+    <Property Name="ReMark" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="StudentInfo">
+    <Key>
+      <PropertyRef Name="StuId" />
+    </Key>
+    <Property Name="StuId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sex" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <Property Name="ClassId" Type="Int32" Nullable="false" />
+    <Property Name="LoginName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NicKName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AddTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DelFlag" Type="Boolean" />
+    <Property Name="Remark" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TeacherInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="TeacherName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Addtime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherPW" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DelFlage" Type="Boolean" />
+    <Property Name="ReMark" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.imgbox{
+    position: relative;
+    float: left;
+}
+.img{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px  #cccccc;
+}
+.imgbox img{
+    width: 310px;
+    height: auto;
+}
+#top{
+    height: 20px;
+    width: 100%;
+    background-color: burlywood;
+    text-align: center;
+
+}
+#up{
+    height: 200px;
+    width: 100%;
+    background-color: #cccccc ;
+}

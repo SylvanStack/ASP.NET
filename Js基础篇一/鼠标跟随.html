@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标跟随</title>
+</head>
+<body>
+<script language=javascript>
+    var cx=0;
+    var cy=0;
+    var val=0;
+    function locate()
+    {
+        cx=window.event.x;
+        cy=window.event.y;
+    }
+
+    document.onmousemove=locate;
+
+    function follow(i)
+    {
+        var x;
+        if(i < 4) {
+            x = cx - 50 + i * 10;
+        }
+        else {
+            x=cx-25+i*10;
+        }
+        var y=cy-20+Math.floor(Math.random()*40);
+
+        w=eval("word"+i);
+
+        with(w.style)
+        {
+            left=x.toString()+"px";
+            top=y.toString()+"px";
+        }
+    }
+
+    function show(i)
+    {
+        var w = eval("word"+i);
+
+        with(w.style)
+        {
+            visibility="visible";
+            s=parseInt(fontSize);
+            if(s>=200)
+            {
+                s-=100;
+            }
+            else if(s>90&&s<=100)
+            {
+                s-=85;
+                clearInterval(val);
+                if(i<5) {
+                    val = setInterval("show(" + (i + 1) + ")", 20);//不停的调用函数
+                }
+            }
+            fontSize=s;
+        }
+    }
+    function start()
+    {
+        for (i = 1; i <= 5; i++) {
+            val = setInterval("show(1)", 20);
+            setInterval("follow(" + i + ")", 100);
+        }
+    }
+</script>
+<script language=javascript>
+    var word=new Array(5);
+    word[1]="J";
+    word[2]="o";
+    word[3]="y";
+    word[4]="F";
+    word[5]="m";
+    for(i=1;i<=5;i++)
+    {
+        document.write("<div id='word"+i+"'style='width:20px;height:20px;position:absolute;font-size:1000;visibility:hidden'> <font face='Forte' color='#00FF00'>"+word[i]+" </font></div>");
+        start();
+    }
+</script>
+</body>
+</html>

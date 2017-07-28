@@ -1,0 +1,66 @@
+﻿@model WebApplication2.Models.ClassInfo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>ClassInfo</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ClassName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ClassName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.AddTime)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.AddTime)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.delFlag)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.delFlag)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Remark)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Remark)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Age)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Age)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ClassId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

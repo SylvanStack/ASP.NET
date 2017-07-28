@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom和Js对象</title>
+    <script src="dieryejs.js"></script>
+    <style type="text/css">
+        #tab {
+            overflow: hidden;
+            width: 400px;
+            height: 250px;
+            position: relative;
+            float: left;
+        }
+
+        #tab>img:not(:first-child) {
+            display: none;
+        }
+    </style>
+    <script>
+        var interval;
+        var pos = 0;
+        window.onload = function() {
+            var images = document.getElementsByTagName('img');
+            var tab = document.getElementById("tab");
+            tab.onmouseover = function() {
+                clearInterval(interval);
+            }
+            tab.onmouseout = function() {
+                run(images);
+            }
+            run(images);
+        }
+        var run = function(images) {
+            interval = setInterval(function() {
+                images[pos].style.display = 'none';
+                pos = ++pos == images.length ? 0 : pos;
+                images[pos].style.display = 'inline';
+            }, 1000);
+        }
+    </script>
+</head>
+<body>
+
+<div id="top">
+<div id="divid" style="height: 200px; width: 100%">
+    <script> document.write(Date());</script>
+    <br/>
+    输入账号：
+    <input id="txt1" type="text" onfocus="ofu(this)">
+    <br/>
+    输入密码：
+    <input id="txt2" type="password" onfocus="ofu(this)">
+</div>
+
+    <script>
+
+        document.write("可用宽度：" + screen.availWidth);
+
+    </script>
+
+<div id="divid1 " onmouseout ="onmouseou(this)"  style="height: 100px; width: 100px ; background-color: coral" onmouseover="onmouseove(this)"  onmousedown="mDown(this)" onmouseup="mUp(this)">
+    鼠标移过来
+</div>
+
+<img id="image" src="image/1.jpg" >
+
+<button type="button" onclick="changdiv()" >改变DIV颜色</button>
+<button type="button" onclick="changimg()" >改变图片</button>
+
+
+<br/><br/><br/><br/>
+</div>
+<div id="tab">
+    <img src="image/1.jpg" width="400" height="250" />
+    <img src="image/2.jpg" width="400" height="250" />
+    <img src="image/3.jpg" width="400" height="250" />
+    <img src="image/4.jpg" width="400" height="250" />
+    <img src="image/5.jpg" width="400" height="250" />
+    <img src="image/6.jpg" width="400" height="250" />
+    <img src="image/7.jpg" width="400" height="250" />
+    <img src="image/8.jpg" width="400" height="250" />
+</div>
+</body>
+</html>

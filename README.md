@@ -52,3 +52,34 @@
 ## ASP.NET( JavaSCript 基础篇)
 - - - - -
 ### 一、 JavaSCript 基础篇   ____   [JavaSCript 基础篇一](https://github.com/Sevenbaby1/ASP.NET/tree/master/WinForm%E5%9F%BA%E7%A1%80%E7%AF%87%E4%B8%80 "JavaSCript 基础篇一链接")
+
+   - 1.js语法
+   - 2.js小项目
+
+
+## ASP.NET( JQuery 基础篇)
+- - - - -
+### 一、 JQuery 基础篇   ____   [JQuery 基础篇一](https://github.com/Sevenbaby1/ASP.NET/tree/master/WinForm%E5%9F%BA%E7%A1%80%E7%AF%87%E4%B8%80 "JQuery 基础篇一链接")
+
+   - 1.基本语法实现
+   - 2.淡入淡出.....等练习
+   - 3.瀑布流的实现
+
+
+## ASP.NET( ASP.NET 续篇一EF)
+- - - - -
+### 一、 ASP.NET 续篇一EF ____   [ASP.NET 续篇一EF](https://github.com/Sevenbaby1/ASP.NET/tree/master/WinForm%E5%9F%BA%E7%A1%80%E7%AF%87%E4%B8%80 "ASP.NET 续篇一EF链接")
+
+   - 1.项目 --学生老师校长管理学籍系统（linq 拉姆达 EF）
+   - 2.项目 --七层项目
+   - 3.项目 --相同案例
+
+
+## ASP.NET( MVC+EF篇)
+- - - - -
+### 一、 MVC+EF篇  ____   [MVC+EF篇](https://github.com/Sevenbaby1/ASP.NET/tree/master/WinForm%E5%9F%BA%E7%A1%80%E7%AF%87%E4%B8%80 "JQuery MVC+EF篇链接")
+
+   - 1.项目--老师网页实现bootstraptable 实现增删改查
+   - 2.项目--学生网页实现bootstraptable 实现增删改查
+
+    1.json  AJax  T4模板   EasyUI  bootstraptable 

@@ -1,0 +1,223 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script>
+        var TableInit = function () {
+            var oTableInit = new Object();
+            //初始化Table
+            oTableInit.Init = function () {
+                $('#DataTable').bootstrapTable({
+                    url: '../Operation/GetClassInfoPageListJson' + '?rnd=' + +Math.random(),
+                    //请求后台的URL（*）
+                    method: 'post',                      //请求方式（*）
+                    toolbar: '#toolbar',                //工具按钮用哪个容器
+                    striped: true,								//是否显示行间隔色
+                    cache: false,                       //是否使用缓存，默认为true，所以一般情况下需要设置一下这个属性（*）
+                    pagination: true,                   //是否显示分页（*）
+                    sortable: true,                     //是否启用排序
+                    sortOrder: "desc",                   //排序方式
+                    queryParams: oTableInit.queryParams,//传递参数（*）
+                    sidePagination: "server",           //分页方式：client客户端分页，server服务端分页（*）
+                    queryParamsType: '', //默认值为 'limit' ,在默认情况下 传给服务端的参数为：offset,limit,sort
+                    sortName: "LastTime",
+                    pageNumber: 1,
+                    pageSize: 5,                       //每页的记录行数（*）
+                    pageList: [5, 10, 25, 50, 100],        //可供选择的每页的行数（*）
+                    search: false,
+                    strictSearch: true,
+                    showColumns: true,                  //是否显示所有的列
+                    showRefresh: true,                  //是否显示刷新按钮
+                    minimumCountColumns: 2,             //最少允许的列数
+                    clickToSelect: true,                //是否启用点击选中行
+                    height: 500,                        //行高，如果没有设置height属性，表格自动根据记录条数觉得表格高度
+                    uniqueId: "StuId",                     //每一行的唯一标识，一般为主键列
+                    showToggle: true,                    //是否显示详细视图和列表视图的切换按钮
+                    singleSelect: true,                 //禁止多选
+                    idField: "StuId",             //主键
+                    columns: [{
+                        title: "全选",
+                        checkbox: true,
+                        field: 'select',
+                        width: 20,
+                        align: "center",//水平
+                        valign: "middle"//垂直
+                    },
+                   { title: '学号', field: 'StuId', sortable: true },
+                   { title: '姓名', field: 'LoginName', sortable: true },
+                   { title: '密码', field: 'NicKName', sortable: true },
+                   { title: '入学时间', field: 'AddTime', sortable: true },
+                   { title: '性别', field: 'Sex', sortable: true },
+                   { title: '年龄', field: 'Age', },
+                   { title: '是否开除学籍', field: 'DelFlag', },
+                   { title: '评价', field: 'Remark', },
+                   { title: 'ClassId', field: 'ClassId', },
+                    { title: '最后一次修改时间', field: 'LastTime', }
+                    ],
+                });
+            };
+            //得到查询的参数
+            oTableInit.queryParams = function (params) {
+                var qryType = $("#queryCondition").find('.dropdown-text').attr('data-value');
+                var searchValue = $("#txt_Keyword").val();
+                var temp = {
+                    PageParam: {
+                        OrderName: params.sortName,
+                        SortOrder: params.sortOrder,
+                        PageIndex: params.pageNumber,
+                        PageSize: params.pageSize
+                    }, queryParams: {}
+                }
+                temp.queryParams[qryType] = searchValue;
+                return temp;
+            };
+            return oTableInit;
+        };
+        var ButtonInit = function () {
+            var oInit = new Object();
+            var postdata = {};
+            oInit.Init = function () {
+                var $table = $('#DataTable');
+                //初始化页面上面的按钮事件
+                $("#apf-add").click(function (e) {
+                    dialogOpen({
+                        id: "fmEdit",
+                        title: '添加',
+                        url: '../Operation/StudentInfoForm',
+                        width: "780px",
+                        height: "502px",
+                        callBack: function (iframeId) {
+                            top.frames[iframeId].AcceptClick();
+                        }
+                    });
+                });
+                $("#apf-edit").click(function (e) {
+                    var data = $table.bootstrapTable('getSelections');
+                    //alert("sdf");
+                    if (checkedRow(data)) {
+                        dialogOpen({
+                            id: "fmEdit",
+                            title: '编辑',
+                            url: '../Operation/StudentInfoForm?keyValue=' +
+                            data[0][$table.bootstrapTable("getOptions").uniqueId],
+                            width: "780px",
+                            height: "400px",
+                            callBack: function (iframeId) {
+                                top.frames[iframeId].AcceptClick();
+                            }
+                        });
+                    }
+                });
+                $("#apf-delete").click(function (e) {
+                    var data = $table.bootstrapTable('getSelections');
+                    if (checkedRow(data)) {
+                        $.RemoveForm({
+                            url: "../Operation/RemoveForm?keyValue=" +
+                         data[0][$table.bootstrapTable("getOptions").uniqueId],
+                            success: function (data) {
+                                $table.bootstrapTable('refresh');
+                            }
+                        });
+                    }
+                    else {
+                        dialogMsg('请选择需要删除的任务！', 0);
+                    }
+                });
+            };
+            return oInit;
+        };
+        $(function () {
+            //1.初始化Table
+            var oTable = new TableInit();
+            oTable.Init();
+            //2.初始化Button的点击事件
+            var oButtonInit = new ButtonInit();
+            oButtonInit.Init();
+            //查询条件
+            $("#queryCondition .dropdown-menu li").click(function () {
+                var text = $(this).find('a').html();
+                var value = $(this).find('a').attr('data-value');
+                $("#queryCondition .dropdown-text").html(text).attr('data-value', value)
+            });
+            //查询事件
+            $("#btn_Search").click(function () {
+                $('#DataTable').bootstrapTable('refresh');
+            });
+            //查询回车
+            $('#txt_Keyword').bind('keypress', function (event) {
+                if (event.keyCode == "13") {
+                    $('#btn_Search').trigger("click");
+                }
+            });
+        });
+        //详细
+        function btn_details() {
+            var data = $('#DataTable').bootstrapTable('getSelections');
+            if (checkedRow(data)) {
+                dialogOpen({
+                    id: "fmEdit",
+                    title: '详细',
+                    url: '../Operation/StudentInfoForm?keyValue=' +
+                    data[0][$('#DataTable').bootstrapTable("getOptions").uniqueId],
+                    width: "780px",
+                    height: "400px",
+                    btn: null,
+                    callBack: function (iframeId) {
+                        //top.frames[iframeId].AcceptClick();
+                    }
+                });
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="toolbar">
+        <div class="form-inline" role="form">
+            <div class="form-group">
+                <div class="title-search">
+                    <table>
+                        <tr>
+                            <td>
+                                <div id="queryCondition" class="btn-group">
+                                    <a class="btn btn-default dropdown-text" data-toggle="dropdown">选择条件</a>
+                                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a data-value="StuId">序号</a></li>
+                                        <li><a data-value="LoginName">姓名</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td style="padding-left: 2px; ">
+                                <input id="txt_Keyword" type="text" class="form-control" placeholder="请输入要查询关键字" style="width: 200px; height: 34px; " />
+                            </td>
+                            <td style="padding-left: 5px; ">
+                                <a id="btn_Search" class="btn btn-primary"><i class="fa fa-search"></i>查询</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="btn-group">
+                    <a id="apf-refresh" class="btn btn-default"><i class="fa fa-refresh"></i>刷新</a>
+                    <a id="apf-add" class="btn btn-default"><i class="fa fa-plus"></i>新增</a>
+                    <a id="apf-edit" class="btn btn-default"><i class="fa fa pencil-square-o"></i>编辑</a>
+                    <a id="apf-delete" class="btn btn-default"><i class="fa fa-trash-o"></i>删除</a>
+                    <a id="apf-detail" class="btn btn-default" onclick="btn_details()"><i class="fa fa-list-alt"></i>详细</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gridPanel">
+        <table id="DataTable"></table>
+    </div>
+</body>
+</html>
