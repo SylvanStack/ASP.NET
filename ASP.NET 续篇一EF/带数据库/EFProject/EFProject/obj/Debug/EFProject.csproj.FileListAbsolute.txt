@@ -16,3 +16,6 @@ F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.Login.resources
 F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.Operation.resources
 F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.LhFind.resources
 F:\东软培训\EFProject\EFProject\obj\Debug\EFProject.StudentUpData.resources
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一EF\带数据库\EFProject\EFProject\bin\Debug\EFProject.exe.config
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一EF\带数据库\EFProject\EFProject\obj\Debug\EFProject.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一EF\带数据库\EFProject\EFProject\obj\Debug\EFProject.pdb

@@ -23,6 +23,7 @@ namespace EFProject
                 dbContext = new StudentEntities(); //如果找不到数据模型箱  就new一个新的数据模型箱
                 CallContext.SetData("DbContext", dbContext);//储存给指定对象 并与其关联
             }
+            
             return dbContext;//返回一个数据模型箱
         }
     }
