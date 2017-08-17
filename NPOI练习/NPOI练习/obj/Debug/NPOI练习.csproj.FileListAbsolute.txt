@@ -1,0 +1,15 @@
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\NPOI练习.exe.config
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\NPOI练习.exe
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\NPOI练习.pdb
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\NPOI.dll
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\NPOI.OOXML.dll
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\NPOI.OpenXml4Net.dll
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\NPOI.OpenXmlFormats.dll
+F:\东软培训\NPOI练习\NPOI练习\bin\Debug\NPOI.xml
+F:\东软培训\NPOI练习\NPOI练习\obj\Debug\NPOI练习.csprojResolveAssemblyReference.cache
+F:\东软培训\NPOI练习\NPOI练习\obj\Debug\NPOI练习.Form1.resources
+F:\东软培训\NPOI练习\NPOI练习\obj\Debug\NPOI练习.Properties.Resources.resources
+F:\东软培训\NPOI练习\NPOI练习\obj\Debug\NPOI练习.csproj.GenerateResource.Cache
+F:\东软培训\NPOI练习\NPOI练习\obj\Debug\NPOI练习.exe
+F:\东软培训\NPOI练习\NPOI练习\obj\Debug\NPOI练习.pdb

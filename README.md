@@ -83,3 +83,17 @@
    - 2.项目--学生网页实现bootstraptable 实现增删改查
 
     1.json  AJax  T4模板   EasyUI  bootstraptable 
+
+## ASP.NET( NOPI篇)
+----
+###一、.Net操作Excel（NPOI）
+
+###前言
+
+  Asp.net/C#操作Excel---NPOI操作Excel，应该是最好的方案了，没有之一,
+支持的文件格式包括xls, doc, ppt等。NPOI是构建在POI 3.x版本之上的
+，可以对Word/Excel文档进行读写操作。
+
+###方法
+先去官网：[点击转到](http://npoi.codeplex.com/ "NPOI")下载，
+需要引入dll（可以选择.net2.0或者.net4.0的dll），然后在网站中添加引用。使用前一定要添加引用。

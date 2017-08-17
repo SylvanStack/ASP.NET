@@ -105,3 +105,6 @@ D:\编程。。。。。。。。。。。。。。。。。。\东软培训Neus
 F:\东软培训\刘东\StuInfo七层EF\StuInfo\StuManage\bin\Debug\StuManage.exe.config
 F:\东软培训\刘东\StuInfo七层EF\StuInfo\StuManage\obj\Debug\StuManage.exe
 F:\东软培训\刘东\StuInfo七层EF\StuInfo\StuManage\obj\Debug\StuManage.pdb
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一EF\带数据库\EF分层\StuInfo七层EF\StuInfo\StuManage\bin\Debug\StuManage.exe.config
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一EF\带数据库\EF分层\StuInfo七层EF\StuInfo\StuManage\obj\Debug\StuManage.exe
+F:\Github本地仓库\GitHub本地仓库\ASP.NET\ASP.NET 续篇一EF\带数据库\EF分层\StuInfo七层EF\StuInfo\StuManage\obj\Debug\StuManage.pdb
