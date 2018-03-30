@@ -1,0 +1,15 @@
+内容信息表:C_A_CONTENT
+表中数据：
+C_ID（自增编号）、CAT_ID（栏目编号）、C_HITS（点击数）、C_TITLE（标题）、C_SUBTITLE（简标题）、C_IMAGEURL（图片地址）、C_CONTENT（内容）、C_SUMMARY（摘要）、C_AUTHOR（作者）、C_SOURCE（来源）、C_KEYWORDS（关键字）、C_STATUS（状态等级（0-退稿，1-等待初审，2-等待二审，3-等待三审，4-等待终审，99-终审通过））、C_WEIGHT（权重（越小越靠前））、C_ADDUSERNAME（添加者用户名）、C_ADDTIME（添加时间）、C_LASTEDITUSERNAME（最后编辑者用户名）、C_LASTEDITTIME（C_LASTEDITTIME）、
+C_ISTOP（是否置顶（0-否，1-是））、C_ISREC（是否推荐（0-否，1-是））、C_ISPER（是否权限阅读（0-否，1-是））、C_ISSLIDE（是否幻灯片（0-否，1-是））
+栏目表：C_K_COLUMN
+表中数据：
+C_ID（栏目编号）、M_ID（模型编号）、C_TYPEID（栏目类型（对应字典表，父级编号为10001 ））
+C_PARENTID（栏目父级编号）C_ORDERID（排序值）、C_LEVEL（层次（从0开始））、C_NAME（栏目名称）、C_ENAME（英文名称）、C_Tips（栏目提示）、C_IMAGE（栏目ICON路径）、C_SUMMARY（栏目描述）、C_ISMENU（是否是菜单）、C_ISFOOTERMENU（是否是底部菜单）、
+C_LINK（链接地址）、C_OPENTYPE（打开方式（0-原窗口打开，1-新窗口打开））、
+C_ITEMOPENTYPE（此栏目下的内容打开方式(0-原窗口打开，1-新窗口打开））、
+C_PATH（路径）、C_ORDERPATH（排序路径）C_MATETITLE（栏目SEO标题）C_MATEKEYWORDS（栏目SEO关键词）
+C_MATEDESCRIPTION（栏目SEO描述）
+C_DISABLED（是否禁用（1-已禁用，0-未禁用））
+C_WORKFLOWID（工作流（0-不需要审核，1-一级审核，2-二级审核，3-三级审核，4-四级审核））
+C_CONTENT（内容（单页））、C_CHILDREN（孩子数量）
