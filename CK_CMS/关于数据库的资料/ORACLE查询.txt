@@ -1,0 +1,280 @@
+1. select * from emp;
+2. select empno, ename, job from emp;
+3. select empno 编号, ename 姓名, job 工作 from emp;
+4. select job from emp;
+5. select distinct job from emp;
+6. select distinct empno, job from emp;
+说明:因为雇员编号不重复, 所以此时证明所有的列没有重复,所以不能消除掉重复的列.
+7. 查询出雇员的编号, 姓名, 工作, 但是显示的格式:编号是: 7369 的雇员, 姓名是: smith, 工作是: clear
+select '编号是: ' || empno || '的雇员, 姓名是: ' || ename || ', 工作是: ' || job from emp;
+8. 求出每个雇员的姓名及年薪
+select ename, sal * 12 income from emp;
+9. 求出工资大于 1500 的所有雇员信息
+select * from emp where sal > 1500;
+10. 查询每月可以得到奖金的雇员信息
+select * from emp where comm is not null;
+11. 查询没有奖金的雇员信息
+select * from emp where comm is null;
+12. 查询出基本工资大于 1500 同时可以领取奖金的雇员信息
+select * from emp where sal > 1500 and comm is not null;
+13. 查询出基本工资大于 1500 或者可以领取奖金的雇员信息
+select * from emp where sal > 1500 or comm is not null;
+14. 查询出基本工资不大于 1500 或者不可以领取奖金的雇员信息
+select * from emp where not(sal > 1500 and comm is not null);
+15. 查询基本工资大于 1500, 但是小于 3000 的全部雇员信息
+select * from emp where sal > 1500 and sal < 3000;
+16. 查询基本工资大于等于 1500, 但是小于等于 3000 的全部雇员信息
+select * from emp where sal >= 1500 and sal <= 3000;
+select * from emp where sal between 1500 and 3000;
+17. 查询出在 1981 年雇佣的全部雇员信息(1981 年 1 月 1 日 到 1981 年 12 月 31 日之间的雇佣的雇员)
+select * from emp where hiredate between '1-1月-81' and '31-12月-81';
+18. 要求查询出姓名是 smith 的雇员信息
+select * from emp where ename = 'SMITH';
+19. 要求查询出雇员是 7369, 7499, 7521 的雇员的具体信息
+select * from emp where empno = 7369 or empno = 7499 or empno = 7521;
+select * from emp where empno in(7369, 7499, 7521);
+20. 要求查询出雇员不是 7369, 7499, 7521 的雇员的具体信息
+select * from emp where empno not in(7369, 7499, 7521);
+21. 要求查询出姓名是 smith, allen, king 的雇员信息
+select * from emp where ename in('SMITH', 'ALLEN', 'KING');
+22. 查询出所有雇员姓名中第二个字母包含 "M" 的雇员信息
+        select * from emp where ename like '_M%';
+23. 查询出雇员姓名中包含字母 M 的雇员信息
+select * from emp where ename like '%M%';
+24. 要求查询出在 1981 年雇佣的雇员信息
+select * from emp where hiredate like '%81%';
+25. 查询工资中包含 5 的雇员信息
+select * from emp where sal like '%5%';
+26. 查询雇员编号不是 7369 的雇员信息
+select * from emp where empno != 7369;
+select * from emp where empno <> 7369;
+27. 要求按照工资由低到高排序
+select * frm emp order by sal;
+select * from emp order by sal asc;
+28. 要求按照工资由高到低排序
+select * from emp order by sal desc;
+29. 要求查询出 20 部门的所有雇员信息, 查询的信息按照工资由高到低排序,如果工资相等,则按照雇佣日期由早到晚排序.
+select * from emp where deptno = 20 order by sal desc, hiredate asc;
+30. 将小写字母变为大写字母
+select upper('hello') from dual;
+31. 将大写字母变为小写字母
+select lower('HELLO WORLD') from dual;
+32. 要求查询出姓名是 smith 的雇员信息
+select * from emp where ename = upper('smith');
+33. 使用 initcap() 函数将单词的第一个字母大写
+select initcap('hello world') from dual;
+34. 将雇员表中的雇员姓名变为开头字母大写
+select initcap(ename) from emp;
+35. 将字符串 "hello" 和 "world" 进行串联
+select concat('hello ', 'world') from dual;
+36. 对字符串进行操作的常用字符处理函数
+select substr('hello', 1, 3) 截取字符串, length('hello') 字符串的长度, replace('hello', 'l', 'x') 字符串替换 from dual;
+select substr('hello', 0, 3) 截取字符串, length('hello') 字符串的长度, replace('hello', 'l', 'x') 字符串替换 from dual;
+37. 显示所有雇员的姓名及姓名的后三个字符
+select ename, substr(ename, length(ename) -2) from emp;
+select ename, substr(ename, -3, 3) from emp;
+38. 使用数值函数执行四舍五入操作
+select round(789.536) from dual;
+39. 要求将 789.536 数值保留两位小数
+select round(789.536, 2) from dual;
+40. 要求将 789.536 数值中的整数的十位进行四舍五入进位
+select round(789.536, -2) from dual;
+41. 采用 trunc() 函数不会保留任何小数,而且小数点也不会执行四舍五入的操作
+select trunc(789.536) from dual;
+42. 通过 trunc() 也可以指定小数点的保留位数
+select trunc(789.536, 2) from dual;
+43. 作用负数表示位数
+select trunc(789.536, -2) from dual;
+44. 使用 mod() 函数可以进行取余的操作
+select mod(10, 3) from dual;
+45. 显示 10 部门雇员进入公司的星期数(当前日期 - 雇佣日期 = 天数 / 7 = 星期数)
+select empno, ename, round((sysdate - hiredate) / 7) from emp where deptno = 10;
+46. 日期函数
+months_between(): 求出给定日期范围的月数
+add_months(): 在指定的日期上加上指定的月数, 求出之后的日期
+next_day(): 指定日期的下一个日期
+last_day(): 求出给定日期当月的最后一天日期
+47. 
+select empno, ename, months_between(sysdate, hiredate) from emp;
+select empno, ename, round(months_between(sysdate, hiredate)) from emp;
+48. select sysdate, add_months(sysdate, 4) from dual;
+49. select next_day(sysdate, '星期一') from dual;
+50. select last_day(sysdate) from dual;
+51. 转换函数
+to_char(): 转换成字符串
+to_number(): 转换成数字
+to_date(): 转换成日期
+52. 查询所有雇员的雇员编号, 姓名, 雇佣日期
+select empno, 
+ename,
+to_char(hiredate, 'yyyy') year,
+to_char(hiredate, 'mm') months,
+to_char(hiredate, 'dd') day
+from emp;
+select empno, ename, to_char(hiredate, 'yyyy-mm-dd') from emp;
+select empno, ename, to_char(hiredate, 'fmyyyy-mm-dd') from emp;
+53. 查询所有雇员的编号, 姓名和工资
+select empno, ename, sal from emp;
+select empno, ename, to_char(sal, '99,999') from emp;
+select empno, ename, to_char(sal, 'L99,999') from emp;
+select empno, ename, to_char(sal, '$99,999') from emp;
+54. select to_number('123') + to_number('123') from dual;
+55. 将一个字符串转换成日期类型
+select to_date('2009-01-01', 'yyyy-mm-dd') from dual;
+56. 求出每个雇员的年薪(要求加上奖金)
+select empno, ename, sal, comm, (sal + comm) * 12 from emp;
+select empno, ename, sal, comm, nvl(comm, 0), (sal + nvl(comm, 0)) * 12 income from emp;
+57. decode() 函数类似于 if....elsif...else 语句
+select decode(1, 1, '内容是 1', 2, '内容是 2', 3, '内容是 3') from dual;
+58. 查询出雇员的编号, 姓名, 雇佣日期及工作, 要求将雇员的工作替换成以下信息:
+select empno 雇员编号, 
+ename 雇员姓名, 
+hiredate 雇佣日期, 
+decode(job, 
+'CLERK', '业务员', 
+'SALESMAN', '销售人员',
+'MANAGER', '经理',
+'ANALYST', '分析员',
+'PRESIDENT', '总裁'
+) 职位
+from emp;
+59. 笛卡尔积(交差连接)
+select * from emp, dept;
+select * from emp cross join dept;
+60. 内连接
+select * from emp e, dept d where e.deptno = d.deptno;
+select * from emp e inner join dept d on e.deptno = d.deptno;
+select * from emp e join dept d on e.deptno = d.deptno;
+
+61. 自然连接
+select * from emp natural join dept;
+select * from emp e join dept d using(deptno);
+62. 要求查询出雇员的编号, 姓名, 部门的编号, 名称, 地址
+select e.empno, e.ename, d.deptno, d.dname, d.loc from emp e, dept d where e.deptno = d.deptno;
+63. 要求查询出雇员的姓名, 工作, 雇员的直接上级领导姓名
+select e.ename, e.job, m.ename from emp e, emp m where e.mgr = m.empno;
+64. 要求查询出雇员的姓名, 工作, 雇员的直接上级领导姓名以及部门名称
+select e.ename, e.job, m.ename, d.dname from emp e, emp m, dept d where e.mgr = m.empno and e.deptno = d.deptno;
+65. 要求查询出每个雇员的姓名, 工资, 部门名称, 工资在公司的等级(salgrade), 及其领导的姓名及工资所在公司的等级
+select e.ename, e.sal, d.dname, s.grade, m.ename, m.sal, ms.grade
+from emp e, dept d, salgrade s, emp m, salgrade ms
+where e.deptno = d.deptno 
+and e.sal between s.losal and s.hisal 
+and e.mgr = m.empno
+and m.sal between ms.losal and ms.hisal;
+select e.ename, 
+e.sal, 
+d.dname, 
+decode(s.grade, 1, '第五等级', 2, '第四等级', 3, '第三等级', 4, '第二等级', 5, '第一等级'), 
+m.ename, 
+m.sal, 
+decode(ms.grade, 1, '第五等级', 2, '第四等级', 3, '第三等级', 4, '第二等级', 5, '第一等级')
+from emp e, dept d, salgrade s, emp m, salgrade ms
+where e.deptno = d.deptno and e.sal between s.losal and s.hisal and e.mgr = m.empno
+and m.sal between ms.losal and ms.hisal;
+66. select empno, ename, d.deptno, dname, loc from emp e, dept d where e.deptno = d.deptno;
+    select empno, ename, d.deptno, dname, loc from emp e inner join dept d on e.deptno = d.deptno;
+67. 左外连接
+    select empno, ename, d.deptno, dname, loc from emp e, dept d where e.deptno = d.deptno(+);
+    select empno, ename, d.deptno, dname, loc from emp e left outer join dept d on e.deptno = d.deptno;
+    select empno, ename, d.deptno, dname, loc from emp e left join dept d on e.deptno = d.deptno(+);
+68. 右外连接
+    select empno, ename, d.deptno, dname, loc from emp e, dept d where e.deptno(+) = d.deptno;
+    select empno, ename, d.deptno, dname, loc from emp e right outer join dept d on e.deptno = d.deptno;
+    select empno, ename, d.deptno, dname, loc from emp e right join dept d on e.deptno = d.deptno;
+69. select e.empno, e.ename, m.empno, m.ename from emp e, emp m where e.mgr = m.empno;
+70. select e.empno, e.ename, m.empno, m.ename from emp e, emp m where e.mgr = m.empno(+);
+71. 
+select * from emp e, dept d where e.deptno = d.deptno and d.deptno = 30;
+select * from emp e inner join dept d on e.deptno = d.deptno where d.deptno = 30;
+select * from emp e join dept d on e.deptno = d.deptno where d.deptno = 30;
+select * from emp e natural join dept d where deptno = 30;
+select * from emp e join dept d using(deptno) where deptno = 30;
+72. 
+select e.ename, d.deptno, d.dname, d.loc from emp e right outer join dept d on e.deptno = d.deptno;
+select e.ename, d.deptno, d.dname, d.loc from emp e right join dept d on e.deptno = d.deptno;
+select e.ename, d.deptno, d.dname, d.loc from emp e, dept d where e.deptno(+) = d.deptno;
+73. select count(ename) from emp;
+74. select min(sal) from emp;
+75. select max(sal) from emp;
+76. select sum(sal) from emp;
+77. select avg(sal) from emp;
+78. select sum(sal) from emp where deptno = 20;
+79. select avg(sal) from emp where deptno = 20;
+80. 求出每个部门的雇员数量
+select deptno, count(deptno) from emp group by deptno;
+select deptno, count(empno) from emp group by deptno;
+81. 求出每个部门的平均工资
+select deptno, avg(sal) from emp group by deptno;
+82. 按部门分组, 并显示部门的名称, 及每个部门的员工数
+select d.dname, count(e.empno) from emp e, dept d 
+where e.deptno = d.deptno
+group by d.dname;
+select d.deptno, d.dname, temp.c
+from (select deptno, count(e.empno) c from emp e group by e.deptno) temp, dept d
+where temp.deptno = d.deptno;
+83. 要求显示出平均工资大于 2000 的部门编号和平均工资
+select deptno, avg(sal) from emp group by deptno having avg(sal) > 2000;
+84. 显示非销售人员工作名称以及从事同一工作雇员的月工资的总和,并且要满足从事同一工作的雇员的月工资合计大于 5000, 输出结果按月工资的合计升序排序.
+select job, sum(sal) su from emp where job <> 'SALESMAN' group by job having sum(sal) > 5000 order by su;
+select temp.job, sum(temp.sal) s
+from (select job, sal from emp e where job <> 'SALESMAN') temp
+group by temp.job
+having sum(temp.sal) > 5000
+order by s;
+85. 求出平均工资最高的部门工资
+select max(avg(sal)) from emp group by deptno;
+86. 要求查询出比雇员编号为 7654 工资高的所有雇员信息
+select * from emp where sal >(select sal from emp where empno = 7654);
+87. 要求查询出工资比 7654 高, 同时与 7788 从事相同工作的全部雇员信息
+select * from emp 
+where sal >(select sal from emp where empno = 7654)
+and job = (select job from emp where empno = 7788);
+88. 要求查询出工资最低的雇员姓名, 工作, 工资
+select ename, job, sal from emp where sal = (select min(sal) from emp);
+89. 要求查询出:　部门名称，部门的员工数，部门的平均工资，部门的最低收入雇员的姓名
+select d.dname, temp.c, temp.a, e.ename 
+from dept d, 
+(select deptno, count(empno) c, avg(sal) a, min(sal) m from emp group by deptno) temp, 
+emp e
+where d.deptno = temp.deptno and e.sal = temp.m;
+select d.deptno, temp.dname, temp.c, temp.a, e.ename, e.sal
+from 
+(select d.dname , count(e.empno) c, avg(e.sal) a, min(e.sal) m
+from emp e, dept d
+where e.deptno = d.deptno
+group by d.dname) temp, 
+emp e,
+dept d
+where temp.m = e.sal
+and temp.dname = d.dname;
+90. 求出每个部门的最低工资的雇员的信息
+select * from emp where sal in(select min(sal) from emp group by deptno);
+select * from emp where sal =any(select min(sal) from emp group by deptno);
+select * from 
+(select min(sal) m from emp group by deptno) temp,
+emp e
+where e.sal = temp.m;
+91. 范例 90 中, 比子查询条件中最低(小)的工资要大的雇员信息
+select * from emp where sal >any(select min(sal) from emp group by deptno);
+select * from emp where sal > (select min(min(sal)) from emp group by deptno);
+92. 范例 90 中, 比子查询条件中最高(大)的工资要小的雇员信息
+select * from emp where sal <any(select min(sal) from emp group by deptno);
+select * from emp where sal < (select max(min(sal)) from emp group by deptno);
+93. 范例 90 中, 比子查询条件中最高(大)的工资要大的雇员信息
+select * from emp where sal >all(select min(sal) from emp group by deptno);
+select * from emp where sal > (select max(min(sal)) from emp group by deptno);
+94. 范例 90 中, 比子查询条件中最低(小)的工资要小的雇员信息
+select * from emp where sal <all(select min(sal) from emp group by deptno);
+select * from emp where sal < (select min(min(sal)) from emp group by deptno);
+95. 查找出 20 部门中没有奖金的雇员信息
+select * from emp where (sal, nvl(comm, -1)) in (select sal, nvl(comm, -1) from emp where deptno = 20);
+select * from emp where deptno = 20 and comm is null;
+96. union 操作符返回两个查询选定的所有不重复的行
+select deptno from emp union select deptno from dept;
+97. union all 操作符合并两个查询选定的所有行，包括重复的行
+select deptno from emp union all select deptno from dept;
+98. intersect 操作符只返回两个查询都有的行
+select deptno from emp intersect select deptno from dept;
+99. minus 操作符只返回由第一个查询选定但是没有被第二个查询选定的行, 也就是在第一个查询结果中排除在第二个查询结果中出现的行
+select deptno from dept minus select deptno from emp;
