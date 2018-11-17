@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\复数\复数\bin\Debug\复数.exe.config
+C:\Users\Administrator\Desktop\复数\复数\obj\Debug\复数.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\复数\复数\bin\Debug\复数.exe
+C:\Users\Administrator\Desktop\复数\复数\bin\Debug\复数.pdb
+C:\Users\Administrator\Desktop\复数\复数\obj\Debug\复数.exe
+C:\Users\Administrator\Desktop\复数\复数\obj\Debug\复数.pdb
+D:\桌面\复数\复数\bin\Debug\复数.exe.config
+D:\桌面\复数\复数\obj\Debug\复数.exe
+D:\桌面\复数\复数\obj\Debug\复数.pdb
+D:\桌面\复数\复数\bin\Debug\复数.exe
+D:\桌面\复数\复数\bin\Debug\复数.pdb
+D:\桌面\复数\复数\obj\Debug\复数.csprojResolveAssemblyReference.cache

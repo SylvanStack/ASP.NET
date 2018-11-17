@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\数据库通讯录\数据库通讯录\bin\Debug\数据库通讯录.exe.config
+D:\桌面2\数据库通讯录\数据库通讯录\bin\Debug\数据库通讯录.exe.config

@@ -1,0 +1,133 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPageOne.master" AutoEventWireup="true" CodeFile="Registered.aspx.cs" Inherits="User_Registered" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="footer" runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <script src="../theme/js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+    <div class="center_table width_960 reg_bgc">
+        <asp:UpdatePanel ID="userNine" runat="server" UpdateMode="Conditional">
+            <ContentTemplate>
+                <table class="border_dashed reg_table text_right text_line">
+                    <tr>
+                        <td>
+                            <label>用户名：</label>
+                        </td>
+                        <td class="text_left">
+                            <asp:UpdatePanel ID="userOne" runat="server" UpdateMode="Conditional">
+                                <ContentTemplate>
+                                    <asp:TextBox runat="server" ID="userName" Width="200px" AutoCompleteType="Disabled" CssClass="txt_style" AutoPostBack="True" OnTextChanged="userName_TextChanged"></asp:TextBox>
+                                    <asp:Label runat="server" ID="lbUserNameMsg" Visible="false"></asp:Label>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>性&nbsp;别：</label>
+                        </td>
+                        <td class="text_left">
+                            <asp:UpdatePanel ID="userTwo" runat="server" UpdateMode="Conditional">
+                                <ContentTemplate>
+                                    <asp:RadioButton ID="rbMale" runat="server" GroupName="Gender" Text="男" />
+                                    <asp:RadioButton ID="rbFeMale" runat="server" GroupName="Gender" Text="女" />
+                                    <asp:Label runat="server" ID="lbUserSexMsg" Visible="false" ForeColor="Red"></asp:Label>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>出生日期：</label>
+                        </td>
+                        <td class="text_left">
+                            <asp:UpdatePanel ID="userThree" runat="server" UpdateMode="Conditional">
+                                <ContentTemplate>
+                                    <asp:TextBox runat="server" ID="tbBorn" Width="200px" CssClass="txt_style" OnTextChanged="tbBorn_TextChanged" OnClick="WdatePicker()"></asp:TextBox>
+                                    <asp:Label ID="lbDateMsg" runat="server" Visible="false" ForeColor="Red"></asp:Label>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>电&nbsp;话：</label>
+                        </td>
+                        <td class="text_left">
+                            <asp:UpdatePanel ID="userFour" runat="server" UpdateMode="Conditional">
+                                <ContentTemplate>
+                                    <asp:TextBox runat="server" ID="tbPhone" Width="200px" AutoCompleteType="Disabled" CssClass="txt_style"></asp:TextBox>
+                                    <asp:RegularExpressionValidator ID="revPhone" runat="server" ForeColor="Red" ErrorMessage="*电话号码不合法" ControlToValidate="tbPhone" ValidationExpression="(^1[3578][01379]\d{8}$)|(^1[34578][01256]\d{8}$)|(^(134[012345678]\d{7}|1[34578][012356789]\d{8})$)|((\(\d{3}\)|\d{3}-)?\d{8})"></asp:RegularExpressionValidator>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>邮&nbsp;箱：</label>
+                        </td>
+                        <td class="text_left">
+                            <asp:UpdatePanel ID="userFive" runat="server" UpdateMode="Conditional">
+                                <ContentTemplate>
+                                    <asp:TextBox runat="server" ID="tbMail" Width="200px" AutoCompleteType="Disabled" CssClass="txt_style"></asp:TextBox>
+                                    <asp:RegularExpressionValidator ID="revMail" runat="server" ForeColor="Red" ErrorMessage="*邮箱不合法" ControlToValidate="tbMail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Q&nbsp;Q：</label>
+                        </td>
+                        <td class="text_left">
+                            <asp:UpdatePanel ID="userSix" runat="server" UpdateMode="Conditional">
+                                <ContentTemplate>
+                                    <asp:TextBox runat="server" ID="tbTencent" Width="200px" AutoCompleteType="Disabled" CssClass="txt_style"></asp:TextBox>
+                                    <asp:RegularExpressionValidator ID="revQQ" runat="server" ForeColor="Red" ErrorMessage="*QQ号不合法" ControlToValidate="tbTencent" ValidationExpression="^\s*[.0-9]{5,12}\s*$"></asp:RegularExpressionValidator>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>密&nbsp;码：</label></td>
+                        <td class="text_left">
+                            <asp:UpdatePanel ID="userSeven" runat="server" UpdateMode="Conditional">
+                                <ContentTemplate>
+                                    <asp:TextBox runat="server" ID="userPassWord" Width="200px" AutoCompleteType="Disabled" CssClass="txt_style" TextMode="Password" OnTextChanged="userPassWord_TextChanged"></asp:TextBox>
+                                    <asp:Label runat="server" ID="lbPassWordMsg" Visible="false"></asp:Label>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>确认密码：</label>
+                        </td>
+                        <td class="text_left">
+                            <asp:UpdatePanel ID="userEight" runat="server" UpdateMode="Conditional">
+                                <ContentTemplate>
+                                    <asp:TextBox runat="server" ID="conPassWord" Width="200px" AutoCompleteType="Disabled" CssClass="txt_style" TextMode="Password" OnTextChanged="conPassWord_TextChanged"></asp:TextBox>
+                                    <asp:Label runat="server" ID="lbConPassWordMsg" Visible="false"></asp:Label>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Button runat="server" ID="btnReg" Text="提  交" OnClick="btnReg_Click" />&nbsp;
+                        </td>
+                        <td class="btnClear">
+                            <asp:Button runat="server" ID="btnClear" Text="清  空" OnClick="btnClear_Click" />
+                        </td>
+                    </tr>
+                </table>
+            </ContentTemplate>
+            <Triggers>
+                <asp:PostBackTrigger ControlID="btnReg" />
+            </Triggers>
+        </asp:UpdatePanel>
+    </div>
+</asp:Content>
+

@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\班级管理\班级管理\bin\Debug\班级管理.exe.config
+C:\Users\Administrator\Desktop\班级管理\班级管理\bin\Debug\班级管理.exe
+C:\Users\Administrator\Desktop\班级管理\班级管理\bin\Debug\班级管理.pdb
+C:\Users\Administrator\Desktop\班级管理\班级管理\obj\Debug\班级管理.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\班级管理\班级管理\obj\Debug\班级管理.exe
+C:\Users\Administrator\Desktop\班级管理\班级管理\obj\Debug\班级管理.pdb
+D:\桌面\班级管理\班级管理\bin\Debug\班级管理.exe.config
+D:\桌面\班级管理\班级管理\obj\Debug\班级管理.exe
+D:\桌面\班级管理\班级管理\obj\Debug\班级管理.pdb
+D:\桌面\班级管理\班级管理\bin\Debug\班级管理.exe
+D:\桌面\班级管理\班级管理\bin\Debug\班级管理.pdb
+D:\桌面\班级管理\班级管理\obj\Debug\班级管理.csprojResolveAssemblyReference.cache

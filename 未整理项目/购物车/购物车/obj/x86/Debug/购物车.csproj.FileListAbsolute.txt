@@ -1,0 +1,17 @@
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\bin\Debug\购物车.exe
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\bin\Debug\购物车.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\obj\x86\Debug\购物车.Form1.resources
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\obj\x86\Debug\购物车.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\obj\x86\Debug\购物车.exe
+c:\users\administrator\documents\visual studio 2010\Projects\购物车\购物车\obj\x86\Debug\购物车.pdb
+C:\Users\Administrator\Desktop\购物车\购物车\obj\x86\Debug\购物车.exe
+C:\Users\Administrator\Desktop\购物车\购物车\obj\x86\Debug\购物车.pdb
+C:\Users\Administrator\Desktop\购物车\购物车\bin\Debug\购物车.exe
+C:\Users\Administrator\Desktop\购物车\购物车\bin\Debug\购物车.pdb
+C:\Users\Administrator\Desktop\购物车\购物车\obj\x86\Debug\购物车.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\购物车\购物车\obj\x86\Debug\购物车.Form1.resources
+C:\Users\Administrator\Desktop\购物车\购物车\obj\x86\Debug\购物车.Properties.Resources.resources
+C:\Users\Administrator\Desktop\购物车\购物车\obj\x86\Debug\购物车.csproj.GenerateResource.Cache

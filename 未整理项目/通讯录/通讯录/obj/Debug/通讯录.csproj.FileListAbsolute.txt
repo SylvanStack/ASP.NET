@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\通讯录\通讯录\bin\Debug\通讯录.exe.config
+C:\Users\Administrator\Desktop\通讯录\通讯录\bin\Debug\通讯录.exe
+C:\Users\Administrator\Desktop\通讯录\通讯录\bin\Debug\通讯录.pdb
+C:\Users\Administrator\Desktop\通讯录\通讯录\obj\Debug\通讯录.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\通讯录\通讯录\obj\Debug\通讯录.Form1.resources
+C:\Users\Administrator\Desktop\通讯录\通讯录\obj\Debug\通讯录.Properties.Resources.resources
+C:\Users\Administrator\Desktop\通讯录\通讯录\obj\Debug\通讯录.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\通讯录\通讯录\obj\Debug\通讯录.exe
+C:\Users\Administrator\Desktop\通讯录\通讯录\obj\Debug\通讯录.pdb
+C:\Users\Administrator\Desktop\通讯录\通讯录\obj\Debug\通讯录.frmlogin.resources
+C:\Users\Administrator\Desktop\通讯录\通讯录\obj\Debug\通讯录.frmMain.resources

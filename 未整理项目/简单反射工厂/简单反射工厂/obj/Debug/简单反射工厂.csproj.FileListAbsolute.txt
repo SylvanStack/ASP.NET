@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator.WWW-8911F31B099\桌面\C#最新课堂用例\简单反射工厂\简单反射工厂\bin\Debug\简单反射工厂.exe
+C:\Documents and Settings\Administrator.WWW-8911F31B099\桌面\C#最新课堂用例\简单反射工厂\简单反射工厂\bin\Debug\简单反射工厂.pdb
+C:\Documents and Settings\Administrator.WWW-8911F31B099\桌面\C#最新课堂用例\简单反射工厂\简单反射工厂\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator.WWW-8911F31B099\桌面\C#最新课堂用例\简单反射工厂\简单反射工厂\obj\Debug\简单反射工厂.exe
+C:\Documents and Settings\Administrator.WWW-8911F31B099\桌面\C#最新课堂用例\简单反射工厂\简单反射工厂\obj\Debug\简单反射工厂.pdb

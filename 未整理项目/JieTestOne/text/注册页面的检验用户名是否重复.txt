@@ -1,0 +1,266 @@
+﻿采用textbox的TextChanged事件，记得将textbox的AutoPostBack 属性改成true
+ protected void txtname_TextChanged(object sender, EventArgs e)
+    {
+        SqlConnection con = DB.createDB();        
+        SqlCommand cmd = new SqlCommand();
+        cmd.Connection = con;
+        con.Open(); 
+        cmd.CommandText = "select * from tb_Users where UserName='" + this.txtname.Text + "'";
+        int i = Convert.ToInt32(cmd.ExecuteScalar());
+        if (i > 0)
+        {
+                  Response.Write("<script language=javascript>alert('此用户名已被注册！');location='javascript:history.go(-1)'</script>");
+        }
+        else
+        {
+            Response.Write("<script language=javascript>alert('此用户名可以使用！');location='javascript:history.go(-1)'</script>");
+        }
+        con.Close();    
+    }
+
+
+
+	//电信手机号码正则        
+	string dianxin = @"^1[3578][01379]\d{8}$";
+	        Regex dReg = new Regex(dianxin); 
+			       //联通手机号正则        
+				   string liantong = @"^1[34578][01256]\d{8}$";  
+				         Regex tReg = new Regex(liantong);   
+						      //移动手机号正则        
+							  string yidong = @"^(134[012345678]\d{7}|1[34578][012356789]\d{8})$";        
+							  Regex yReg = new Regex(yidong);
+
+							  (^1[3578][01379]\d{8}$)|(^1[34578][01256]\d{8}$)|(^(134[012345678]\d{7}|1[34578][012356789]\d{8})$)|((\(\d{3}\)|\d{3}-)?\d{8})
+
+
+
+
+
+							          if (rfvUserPassWord.IsValid == true)
+        {
+            //二次密码输入
+            rfvConPassWord.Visible = false;
+            //两次密码输入一致
+            if (cvConPassWord.IsValid == true)
+            {
+                cvConPassWord.Visible = false;
+                lbConPassWordMsg.ForeColor = System.Drawing.Color.Green;
+                lbConPassWordMsg.Text = "";
+                lbConPassWordMsg.Visible = true;
+                return;
+            }
+            else
+            {
+                rfvConPassWord.Visible = true;
+                cvConPassWord.Visible = false;
+                return;
+            }
+            //if (userPassWord.Text.Trim()==conPassWord.Text.Trim())
+            //{
+            //    lbConPassWordMsg.ForeColor = System.Drawing.Color.Green;
+            //    lbConPassWordMsg.Text = "OK";
+            //    lbConPassWordMsg.Visible = true;
+            //    return;
+            //}
+            //else
+            //{
+            //    lbConPassWordMsg.ForeColor = System.Drawing.Color.Red;
+            //    lbConPassWordMsg.Text = "*两次密码输入不一致";
+            //    lbConPassWordMsg.Visible = true;
+            //    return;
+            //}
+        }
+        else
+        {
+            cvConPassWord.Visible = false;
+            rfvConPassWord.Visible = true;
+            return;
+        }
+        //if (cvConPassWord.IsValid == true)
+        //{//userPassWord.Text.Trim().Equals(conPassWord.Text.Trim())
+        //    //lbConPassWordMsg.ForeColor = System.Drawing.Color.Red;
+        //    //lbConPassWordMsg.Text = "*两次密码输入不一致";
+        //    //rfvConPassWord.Visible = false;
+        //    //lbConPassWordMsg.Visible = true;
+        //    //return;
+        //    rfvConPassWord.Visible = false;
+        //    cvConPassWord.Visible = false;
+        //    lbConPassWordMsg.ForeColor = System.Drawing.Color.Green;
+        //    lbConPassWordMsg.Text = "OK";
+        //    lbConPassWordMsg.Visible = true;
+        //    return;
+        //}
+        //else
+        //{
+        //    rfvConPassWord.Visible = true;
+        //    return;
+        //    //cvConPassWord.Visible = false;
+        //}
+        ////else
+        ////{
+        ////    lbConPassWordMsg.ForeColor = System.Drawing.Color.Green;
+        ////    lbConPassWordMsg.Text = "OK";
+        ////    rfvConPassWord.Visible = false;
+        ////    lbConPassWordMsg.Visible = true;
+        ////    return;
+        ////}
+
+		    //密码(1)
+    //protected void userPassWord_TextChanged(object sender, EventArgs e)
+    //{
+    //    if (rfvUserPassWord.IsValid == true)
+    //    {
+    //        rfvUserPassWord.Visible = false;
+    //        lbPassWordMsg.ForeColor = System.Drawing.Color.Green;
+    //        lbPassWordMsg.Text = "";
+    //        lbPassWordMsg.Visible = true;
+    //        return;
+    //    }
+    //    else
+    //    {
+    //        rfvUserPassWord.Visible = true;
+    //        return;
+    //    }
+    //}
+    //密码(2)
+    //protected void conPassWord_TextChanged(object sender, EventArgs e)
+    //{
+    //    /*
+    //     * <asp:RequiredFieldValidator ID="rfvConPassWord" runat="server" ErrorMessage="*请输入确认密码" ForeColor="Red" ControlToValidate="conPassWord" Display="Dynamic"></asp:RequiredFieldValidator>
+    //     * <asp:CompareValidator ID="cvConPassWord" runat="server" ErrorMessage="*两次密码输入不一致" ForeColor="Red" ControlToValidate="userPassWord" ControlToCompare="conPassWord"></asp:CompareValidator>
+    //     * <asp:Label runat="server" ID="lbConPassWordMsg" Visible="false"></asp:Label>
+    //     */
+    //    //两次密码是否输入一致
+    //    //一致
+    //    //if (cvConPassWord.IsValid == true)
+    //    //{
+
+    //    //}
+    //    //else
+    //    //{
+    //    //    cvConPassWord.Visible = true;
+    //    //}
+    //}
+
+
+
+	 protected void userName_TextChanged(object sender, EventArgs e)
+    {
+        int selCntFirst = Convert.ToInt32(db.selDB("select count(*) ID from register where userName='" + userName.Text.Trim() + "'"));
+        if (selCntFirst != 0)
+        {
+            lbUserNameMsg.Text = "*用户名已经存在";
+            lbUserNameMsg.ForeColor = System.Drawing.Color.Red;
+            rfvUserName.Visible = false;
+            lbUserNameMsg.Visible = true;
+            return;
+        }
+        else
+        {
+            lbUserNameMsg.ForeColor = System.Drawing.Color.Green;
+            lbUserNameMsg.Text = "";
+            lbUserNameMsg.Visible = true;
+            return;
+        }
+    }
+    //性别
+    protected void RadioButton_CheckedChanged(object sender, EventArgs e)
+    {
+        if (rbMale.Checked == false && rbFeMale.Checked == false)
+        {
+            lbUserSexMsg.ForeColor = System.Drawing.Color.Red;
+            lbUserSexMsg.Text = "*请选择性别";
+            lbUserSexMsg.Visible = true;
+            fl = true;
+            return;
+        }
+        else
+        {
+            /*用于获取当前事件是由哪个RadioButton控件引起的。
+             *这是一个RadioButton事件，
+             *所以将object类型的sender参数强制转换成了RadioButton类型的参数。
+             */
+            //RadioButton selectedRadioButton = (RadioButton)sender;
+            //sex = selectedRadioButton.Text;
+            flag = true;
+            lbUserSexMsg.ForeColor = System.Drawing.Color.Green;
+            lbUserSexMsg.Text = "";
+            lbUserSexMsg.Visible = true;
+            return;
+        }
+
+    }
+    //出生日期
+    protected void tbBorn_TextChanged(object sender, EventArgs e)
+    {
+        lbDateMsg.ForeColor = System.Drawing.Color.Green;
+        lbDateMsg.Text = "";
+        rfvTbBorn.Visible = false;
+        lbDateMsg.Visible = true;
+        return;
+    }
+    //电话
+    protected void tbPhone_TextChanged(object sender, EventArgs e)
+    {
+        string tel = @"(^1[3578][01379]\d{8}$)|(^1[34578][01256]\d{8}$)|(^(134[012345678]\d{7}|1[34578][012356789]\d{8})$)|((\(\d{3}\)|\d{3}-)?\d{8})";
+        Regex telReg = new Regex(tel);
+        if (telReg.IsMatch(tbPhone.Text.Trim()))
+        {
+            lbTbPhoneMsg.ForeColor = System.Drawing.Color.Green;
+            lbTbPhoneMsg.Text = "";
+            rfvTbPhone.Visible = false;
+            lbTbPhoneMsg.Visible = true;
+            return;
+        }
+        else
+        {
+            lbTbPhoneMsg.ForeColor = System.Drawing.Color.Red;
+            lbTbPhoneMsg.Text = "*电话号码不合法";
+            rfvTbPhone.Visible = false;
+            lbTbPhoneMsg.Visible = true;
+            return;
+        }
+    }
+    //邮箱
+    protected void tbMail_TextChanged(object sender, EventArgs e)
+    {
+        string mail = @"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*";
+        Regex mailReg = new Regex(mail);
+        if (mailReg.IsMatch(tbMail.Text.Trim()))
+        {
+            lbTbMailMsg.ForeColor = System.Drawing.Color.Green;
+            lbTbMailMsg.Text = "";
+            rfvTbMail.Visible = false;
+            lbTbMailMsg.Visible = true;
+            return;
+        }
+        else
+        {
+            lbTbMailMsg.ForeColor = System.Drawing.Color.Red;
+            lbTbMailMsg.Text = "*邮箱不合法";
+            rfvTbMail.Visible = false;
+            lbTbMailMsg.Visible = true;
+            return;
+        }
+    }
+    //腾讯QQ
+    protected void tbTencent_TextChanged(object sender, EventArgs e)
+    {
+        string tencent = @"^\s*[.0-9]{5,12}\s*$";
+        Regex tencentReg = new Regex(tencent);
+        if (tencentReg.IsMatch(tbTencent.Text.Trim()))
+        {
+            lbTbTencentMsg.ForeColor = System.Drawing.Color.Green;
+            lbTbTencentMsg.Text = "";
+            rfvTbTencent.Visible = false;
+            lbTbTencentMsg.Visible = true;
+            return;
+        }
+        else
+        {
+            lbTbTencentMsg.ForeColor = System.Drawing.Color.Red;
+            lbTbTencentMsg.Text = "*QQ号不合法";
+            rfvTbTencent.Visible = false;
+            lbTbTencentMsg.Visible = true;
+            return;
+        }

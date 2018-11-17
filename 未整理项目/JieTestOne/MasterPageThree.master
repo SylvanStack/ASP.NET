@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageThree.master.cs" Inherits="MasterPageThree" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>联想校园大使查询</title>
+    <link href="favicon.ico" rel="short icon" type="text/x-component" />
+    <link href="theme/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="footer" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="width_960 center_table">
+            <table class="border_dashed">
+                <tr>
+                    <td class="border_dashed width_30">
+                        <a href="Default.aspx">
+                            <asp:Image runat="server" ImageUrl="~/theme/images/LOGO/logo2.png" CssClass="width_100 height_95" />
+                        </a>
+                    </td>
+                    <td class="border_dashed width_30"></td>
+                    <td class="border_dashed width_40"></td>
+                </tr>
+            </table>
+            <table class="border_dashed">
+                <tr>
+                    <td class="border_dashed navigation">
+                        <asp:LinkButton runat="server" CssClass="no_underline" PostBackUrl="~/Default.aspx" ForeColor="White">首页</asp:LinkButton>
+                        <asp:LinkButton runat="server" CssClass="no_underline" PostBackUrl="" ForeColor="White">企业简介</asp:LinkButton>
+                        <asp:LinkButton runat="server" CssClass="no_underline" PostBackUrl="" ForeColor="White">校园大使查询</asp:LinkButton>
+                        <asp:LinkButton runat="server" CssClass="no_underline" PostBackUrl="" ForeColor="White">论坛</asp:LinkButton>
+                        <asp:LinkButton runat="server" CssClass="no_underline" PostBackUrl="" ForeColor="White">加入我们</asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="bgc">
+            <div class="center_table width_960">
+                <table class="border_dashed footer">
+                    <tr>
+                        <td>JieTestOne:HYBCHomeWork
+                            <p>
+                                制作人：张杰
+                            </p>
+                            <p>
+                                年轻即出发，一定要有梦想，自信而不自傲。
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

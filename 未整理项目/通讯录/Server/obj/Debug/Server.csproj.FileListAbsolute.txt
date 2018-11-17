@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\通讯录\Server\bin\Debug\Server.exe.config
+C:\Users\Administrator\Desktop\通讯录\Server\bin\Debug\Server.exe
+C:\Users\Administrator\Desktop\通讯录\Server\bin\Debug\Server.pdb
+C:\Users\Administrator\Desktop\通讯录\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\通讯录\Server\obj\Debug\Server.Form1.resources
+C:\Users\Administrator\Desktop\通讯录\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\Administrator\Desktop\通讯录\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\通讯录\Server\obj\Debug\Server.exe
+C:\Users\Administrator\Desktop\通讯录\Server\obj\Debug\Server.pdb

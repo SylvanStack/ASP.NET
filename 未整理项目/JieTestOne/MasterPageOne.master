@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageOne.master.cs" Inherits="MasterPageOne" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>联想校园大使官网</title>
+    <link href="favicon.ico" rel="short icon" type="text/x-component" />
+    <link href="theme/CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script src="theme/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="theme/js/ThePictureBy.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="footer" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="smOne" runat="server"></asp:ScriptManager>
+        <div class="width_960 center_table">
+            <table class="border_dashed">
+                <tr>
+                    <td class="border_dashed width_30">
+                        <asp:Panel ID="pLogo" runat="server">
+                            <a href="Default.aspx">
+                                <asp:Image runat="server" ImageUrl="~/theme/images/LOGO/logo.png" CssClass="width_100 height_95" />
+                            </a>
+                        </asp:Panel>
+                        <asp:Panel ID="pLogo2" runat="server" Visible="false">
+                            <a href="CampusAmbassadorQuery.aspx">
+                                <asp:Image runat="server" ImageUrl="~/theme/images/LOGO/logo2.png" CssClass="width_100 height_95" />
+                            </a>
+                        </asp:Panel>
+                    </td>
+                    <td class="border_dashed width_30"></td>
+                    <td class="border_dashed width_40">
+                        <asp:UpdatePanel ID="up" runat="server" UpdateMode="Conditional">
+                            <ContentTemplate>
+                                <div>
+                                    <asp:Panel ID="pOne" runat="server">
+                                        <table class="border_dashed width_100 right_table" id="tbLoginOne">
+                                            <tr>
+                                                <td>
+                                                    <label>用户名</label>
+                                                </td>
+                                                <td>
+                                                    <asp:TextBox runat="server" ID="userName" Width="140px" AutoCompleteType="Disabled" CssClass=""></asp:TextBox>
+                                                </td>
+                                                <td>
+                                                    <asp:CheckBox runat="server" ID="cbAutomaticLogin" Text="自动登陆" OnCheckedChanged="cbAutomaticLogin_CheckedChanged" />
+                                                </td>
+                                                <td>
+                                                    <asp:LinkButton runat="server" CssClass="no_underline" PostBackUrl="~/Registered.aspx">立即注册</asp:LinkButton>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <label>密&nbsp;码</label>
+                                                </td>
+                                                <td>
+                                                    <asp:TextBox runat="server" ID="userPassWord" Width="140px" AutoCompleteType="Disabled" TextMode="Password" CssClass=""></asp:TextBox>
+                                                </td>
+                                                <td>
+                                                    <asp:Button runat="server" ID="btnLogin" Text="登  陆" OnClick="btnLogin_Click" CssClass="btnLogin" />
+                                                </td>
+                                                <td>
+                                                    <asp:LinkButton runat="server" CssClass="no_underline">密码找回</asp:LinkButton>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </asp:Panel>
+                                    <asp:Panel ID="pTwo" runat="server" Visible="false">
+                                        <table class="border_dashed width_100 right_table" id="tbLoginTwo">
+                                            <tr>
+                                                <td class="text_right">
+                                                    <asp:LinkButton runat="server" CssClass="no_underline btnLogin" ID="LinkButton1" OnClick="lbtnLoginOut_Click">
+                                                        <asp:Label runat="server" ID="lbComeName" Text=""></asp:Label>
+                                                    </asp:LinkButton>
+                                                </td>
+                                                <td class="text_right" style="width: 90px;">
+                                                    <asp:LinkButton runat="server" CssClass="no_underline btnLogin" ID="lbtnLoginOut" OnClick="lbtnLoginOut_Click">
+                                                        退出登录
+                                                    </asp:LinkButton>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </asp:Panel>
+                                </div>
+                            </ContentTemplate>
+                            <Triggers>
+                                <asp:PostBackTrigger ControlID="btnLogin" />
+                            </Triggers>
+                        </asp:UpdatePanel>
+                    </td>
+                </tr>
+            </table>
+            <table class="border_dashed">
+                <tr>
+                    <td class="border_dashed navigation">
+                        <asp:LinkButton runat="server" CssClass="no_underline" PostBackUrl="~/Default.aspx" ForeColor="White">首页</asp:LinkButton>
+                        <asp:LinkButton runat="server" CssClass="no_underline" ForeColor="White">企业简介</asp:LinkButton>
+                        <asp:LinkButton runat="server" CssClass="no_underline" PostBackUrl="~/CampusAmbassadorQuery.aspx" ForeColor="White">校园大使查询</asp:LinkButton>
+                        <asp:LinkButton runat="server" CssClass="no_underline" ForeColor="White">论坛</asp:LinkButton>
+                        <asp:LinkButton runat="server" CssClass="no_underline" ForeColor="White">加入我们</asp:LinkButton>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="bgc">
+            <div class="center_table width_960">
+                <table class="border_dashed footer">
+                    <tr>
+                        <td>JieTestOne:HYBCHomeWork
+                            <p>
+                                制作人：张杰
+                            </p>
+                            <p>
+                                年轻即出发，一定要有梦想，自信而不自傲。
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

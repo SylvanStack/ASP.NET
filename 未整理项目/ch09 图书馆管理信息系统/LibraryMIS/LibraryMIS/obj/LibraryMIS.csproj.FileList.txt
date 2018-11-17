@@ -1,0 +1,2 @@
+obj\Debug\LibraryMIS.exe
+obj\Debug\LibraryMIS.pdb

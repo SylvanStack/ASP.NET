@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "检测", "检测\检测.csproj", "{F092B4FD-1CD6-4653-9DE7-989455D351DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F092B4FD-1CD6-4653-9DE7-989455D351DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F092B4FD-1CD6-4653-9DE7-989455D351DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F092B4FD-1CD6-4653-9DE7-989455D351DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F092B4FD-1CD6-4653-9DE7-989455D351DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

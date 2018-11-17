@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\分数\分数\bin\Debug\分数.exe.config
+C:\Users\Administrator\Desktop\分数\分数\bin\Debug\分数.exe
+C:\Users\Administrator\Desktop\分数\分数\bin\Debug\分数.pdb
+C:\Users\Administrator\Desktop\分数\分数\obj\Debug\分数.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\分数\分数\obj\Debug\分数.exe
+C:\Users\Administrator\Desktop\分数\分数\obj\Debug\分数.pdb

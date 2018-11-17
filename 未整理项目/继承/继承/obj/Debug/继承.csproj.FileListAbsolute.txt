@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\继承\继承\bin\Debug\继承.exe.config
+C:\Users\Administrator\Desktop\继承\继承\bin\Debug\继承.exe
+C:\Users\Administrator\Desktop\继承\继承\bin\Debug\继承.pdb
+C:\Users\Administrator\Desktop\继承\继承\obj\Debug\继承.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\继承\继承\obj\Debug\继承.exe
+C:\Users\Administrator\Desktop\继承\继承\obj\Debug\继承.pdb

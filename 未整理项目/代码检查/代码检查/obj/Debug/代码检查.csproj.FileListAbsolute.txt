@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\代码检查\代码检查\bin\Debug\代码检查.exe.config
+C:\Users\Administrator\Desktop\代码检查\代码检查\bin\Debug\代码检查.exe
+C:\Users\Administrator\Desktop\代码检查\代码检查\bin\Debug\代码检查.pdb
+C:\Users\Administrator\Desktop\代码检查\代码检查\obj\Debug\代码检查.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\代码检查\代码检查\obj\Debug\代码检查.exe
+C:\Users\Administrator\Desktop\代码检查\代码检查\obj\Debug\代码检查.pdb

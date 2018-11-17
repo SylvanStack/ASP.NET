@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LibraryMIS">
+</Property><Property Name="解决方案文件" Value="C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\LibraryMIS.sln">
+</Property><Property Name="用户选项文件" Value="C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\LibraryMIS.suo">
+</Property><Property Name="Date" Value="2009年1月26日">
+</Property><Property Name="Time" Value="12:37">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LibraryMIS.sln" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="LibraryMIS.suo" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS.suo">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\LibraryMIS.csproj" Description="项目文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\LibraryMIS.csproj">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\LibraryMIS.csproj.user" Description="项目用户文件成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\LibraryMIS.csproj.user">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddBook.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddBook.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddIdentity.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddIdentity.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddPerson.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddPerson.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddType.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddType.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddUser.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddUser.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AssemblyInfo.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Book.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Book.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\BookIn.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\BookIn.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\BookOut.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\BookOut.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\BookQuery.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\BookQuery.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\database\dbConnection.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\database\dbConnection.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Identity.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Identity.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Login.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Login.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\main.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\main.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyBook.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyBook.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyCode.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyCode.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyPerson.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyPerson.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyType.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyType.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyUser.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyUser.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Person.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Person.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\PersonQuery.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\PersonQuery.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Type.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Type.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\User.cs" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\User.cs">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\App.ico" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\App.ico">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddBook.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddBook.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddIdentity.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddIdentity.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddPerson.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddPerson.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddType.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddType.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\AddUser.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\AddUser.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Book.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Book.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\BookIn.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\BookIn.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\BookOut.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\BookOut.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\BookQuery.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\BookQuery.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Identity.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Identity.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Login.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Login.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\main.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\main.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyBook.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyBook.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyCode.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyCode.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyPerson.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyPerson.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyType.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyType.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\ModifyUser.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\ModifyUser.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Person.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Person.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\PersonQuery.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\PersonQuery.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\Type.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\Type.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\User.resx" Description="文件已成功备份为 C:\Documents and Settings\Administrator\桌面\C#课程设计案例精编\ch09 图书馆管理信息系统\LibraryMIS\Backup\LibraryMIS\User.resx">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\LibraryMIS.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="LibraryMIS" Source="LibraryMIS\LibraryMIS.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LibraryMIS.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="LibraryMIS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LibraryMIS" Source="LibraryMIS\LibraryMIS.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
